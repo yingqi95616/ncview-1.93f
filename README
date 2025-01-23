@@ -1,3 +1,13 @@
+Notes by Qi Ying
+------------------
+This version is slightly modified to take an additional commandline 
+arguement '-v [variable_name]' to display a single variable. This is
+very useful for a file with hundreds or even thousands of variables. 
+
+Usage:
+ncview -v <variable_name> <file.nc>
+
+
 Ncview 1.93d  June 13, 2008 -- (C) David W. Pierce
 --------------------------------------------------
 
