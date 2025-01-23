@@ -1,0 +1,110 @@
+##
+## Makefile for ncview     D. Pierce   13 Aug 2003
+##
+
+################################################################
+## Edit these three to indicate the path for the netcdf include
+## file 'netcdf.h', the name of the netcdf library file, and the
+## path to that library file.
+################################################################
+
+NC_ROOT      = /opt
+
+NETCDFINCDIR = $(NC_ROOT)/include
+NETCDFLIBDIR = $(NC_ROOT)/lib
+
+NETCDFLIB    = -lnetcdf
+
+################################################################
+## Set these to the paths where you want the binary and man page
+## installed when you run "make install".
+################################################################
+BINDIR = $(NC_ROOT)/bin
+
+#MANDIR = /usr/man/man1
+MANDIR = /opt/man/man1
+
+#####################################################################
+## Set this to the directory where system-wide .ncmap (colormap) 
+## files will be kept and installed.  Comment this line out if
+## no such directory will be specified.
+#####################################################################
+NCVIEW_LIB_DIR = $(NETCDFLIBDIR)/ncview
+
+######################################################################
+## If needed, *add* here the names of any additional include or library 
+## directories that you requre.  In particular, if the Xaw include 
+## subdirectory isn't a subdirectory of the standard X include directory,
+## you will have to include the place where the the Xaw subdirectory 
+## is in NCVIEWINCDIR.  Generally this won't be a necessary.  Don't
+## delete the $(NETCDFINCDIR) and $(NETCDFLIBDIR) entries!
+################################################################
+OTHERINCDIRS = -I$(NETCDFINCDIR) -I/usr/openwin/include -I/usr/openwin/include/X11
+OTHERLIBDIRS = -L$(NETCDFLIBDIR) -L/usr/openwin/lib -lnsl
+
+################################################################
+## If you want to use GNU's C compiler instead of your machine's
+## default C compiler, then uncomment the following line.
+################################################################
+#CC	= gcc
+
+############################################################
+## You should not have to edit anything below this line
+############################################################
+
+SRCS	= ncview.c file.c util.c do_buttons.c		\
+	  interface.c x_interface.c file_netcdf.c	\
+	  view.c SciPlot.c epic_time.c
+
+OBJS = 	ncview.o file.o util.o do_buttons.o		\
+	file_netcdf.o	view.o do_print.o		\
+	interface/interface.o 				\
+	interface/x_interface.o interface/dataedit.o	\
+	interface/display_info.o interface/plot_xy.o	\
+	interface/utils.o interface/range.o		\
+	interface/printer_options.o overlay.o		\
+	interface/filesel.o interface/set_options.o	\
+	interface/plot_range.o udu.o SciPlot.o		\
+	epic_time.o interface/cbar.o
+
+HEADERS = ncview.bitmaps.h ncview.includes.h 		\
+	  ncview.defines.h ncview.protos.h
+
+COLORMAPS = 3gauss.ncmap 3saw.ncmap default.ncmap	\
+	  detail.ncmap hotres.ncmap
+
+XAWLIB   = -lXaw
+XMULIB   = -lXmu
+XTOOLLIB = -lXt
+XEXTLIB  = -lXext
+XLIB     = -lX11
+
+INCDIR   = /usr/openwin/include/X11
+
+##########################################################################
+
+.c.o:	$<
+	$(CC) $(CFLAGS) $(ARCHFLAG) -DNCVIEW_LIB_DIR=\"$(NCVIEW_LIB_DIR)\" \
+			-I$(INCDIR) $(OTHERINCDIRS) -c  -o $*.o $<
+
+##########################################################################
+
+all:	ncview
+
+clean:	
+	@rm -f $(OBJS)
+
+ncview: $(OBJS)
+	$(CC) -o ncview $(OBJS) $(LDOPTIONS) $(OTHERLIBDIRS) $(NETCDFLIB) $(XAWLIB) $(XMULIB) $(XTOOLLIB) $(XEXTLIB) $(XLIB) -lm
+
+ncview.1: ncview.1.sed
+	sed s=NCVIEW_LIB_DIR=$(NCVIEW_LIB_DIR)= < ncview.1.sed > ncview.1
+
+install:: ncview ncview.1 $(COLORMAPS) Ncview
+##	Is variable NCVIEW_LIB_DIR defined? If yes, then make the directory
+##	if it doesn't already exist, and copy the colormap files to it.
+	if test $(NCVIEW_LIB_DIR)x != x; then if test ! -d $(NCVIEW_LIB_DIR); then mkdir -p $(NCVIEW_LIB_DIR); fi; for i in $(COLORMAPS); do chown `whoami` $$i; $(INSTALL) $(INSTDATFLAGS) $$i $(NCVIEW_LIB_DIR); done; fi
+	$(INSTALL) $(INSTBINFLAGS) ncview   $(BINDIR)/ncview
+	$(INSTALL) $(INSTMANFLAGS) ncview.1 $(MANDIR)/ncview.1
+	$(INSTALL) $(INSTDATFLAGS) Ncview   $(XAPPLOADDIR)/Ncview
+

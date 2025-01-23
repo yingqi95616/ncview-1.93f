@@ -1,0 +1,141 @@
+## Makefile.in for ncview   D. Pierce   11/4/2000
+##
+
+################################################################
+## Edit these three to indicate the path for the netcdf include
+## file 'netcdf.h', the name of the netcdf library file, and the
+## path to that library file.
+################################################################
+NETCDFINCDIR = -I/scratch/PI/qying/lib/netcdf-4.7.4-intel/include
+NETCDFLIB    = -lnetcdf
+NETCDFLIBDIR = -L/scratch/PI/qying/lib/netcdf-4.7.4-intel/lib
+
+################################################################
+## If you DON'T want the udunits support, which will format
+## the time axis properly, then COMMENT OUT the following 
+## four lines.  If you DO want udunits support, set these to
+## the location of the udunits include and library directories.
+################################################################
+#INC_UDUNITS   = -DINC_UDUNITS
+#UDUNITSINCDIR = -I
+#UDUNITSLIBDIR = -I
+#UDUNITSLIB = -ludunits
+
+############################################################
+## If you DON'T want the PPM support (which can make frames
+## from the data you are viewing) then comment out the
+## following lines
+############################################################
+#INC_PPM   = -DINC_PPM
+#PPMINCDIR = -I
+#PPMLIBDIR = -I
+#PPMLIB = -lnetpbm
+
+################################################################
+## Set these to the paths where you want the binary and man page
+## installed when you run "make install".
+################################################################
+BINDIR = /usr/local/bin
+MANDIR = /usr/local/man/man1
+
+#####################################################################
+## Set this to the directory where system-wide .ncmap (colormap) 
+## files will be kept and installed.  Comment this line out if
+## no such directory will be specified.
+#####################################################################
+NCVIEW_LIB_DIR = /usr/local/lib/ncview
+
+######################################################################
+## If needed, *add* here the names of any additional include or library 
+## directories that you requre.  In particular, if the Xaw include 
+## subdirectory isn't a subdirectory of the standard X include directory,
+## you will have to include the place where the the Xaw subdirectory 
+## is in NCVIEWINCDIR.  Generally this won't be a necessary.  Don't
+## delete the $(NETCDFINCDIR) and $(NETCDFLIBDIR) entries!
+################################################################
+OTHERINCDIRS = $(NETCDFINCDIR) $(UDUNITSINCDIR)
+OTHERLIBDIRS = $(NETCDFLIBDIR) $(UDUNITSLIBDIR)
+
+################################################################
+## X11 include directory -- will be something like
+## /opt/X11/include under Solaris, typically
+################################################################
+#INCDIR   = /usr/include/X11
+#INCDIR	= /opt/X11/include	# For Solaris?
+INCDIR =  -I/scratch/PI/qying/lib/X11/usr/include
+
+################################################################
+## X11 libs needed
+################################################################
+XAWLIB   = -lXaw
+XMULIB   = -lXmu
+XTOOLLIB = -lXt
+XEXTLIB  = -lXext
+XLIB     = -lX11
+
+# Note: do NOT include utCalendar_cal here, that file is #inclded as needed
+
+OBJS = 	ncview.o file.o util.o do_buttons.o		\
+	file_netcdf.o	view.o do_print.o		\
+	epic_time.o interface/interface.o		\
+	interface/x_interface.o interface/dataedit.o	\
+	interface/display_info.o interface/plot_xy.o	\
+	interface/utils.o interface/range.o		\
+	interface/printer_options.o overlay.o		\
+	interface/filesel.o interface/set_options.o	\
+	interface/plot_range.o udu.o SciPlot.o		\
+	interface/RadioWidget.o interface/cbar.o	
+
+HEADERS = ncview.bitmaps.h ncview.includes.h 		\
+	  ncview.defines.h ncview.protos.h		\
+	  nc_overlay.earth.lat-lon.p8deg		\
+	  nc_overlay.lat-lon-grid.10x30			\
+	  nc_overlay.lat-lon-grid.20x60
+
+MYCFLAGS = -g -O2  -I/scratch/PI/qying/lib/X11/usr/include $(INC_UDUNITS) $(INC_PPM)
+
+SUFFIXES = 
+
+INSTALL = /usr/bin/install -c
+
+###########################################################################
+
+.c.o:	$<
+	icc $(MYCFLAGS) $(LDOPTIONS) -DNCVIEW_LIB_DIR=\"$(NCVIEW_LIB_DIR)\" \
+		-I. $(INCDIR) $(OTHERINCDIRS) -c -o $*.o $<
+
+###########################################################################
+
+all::	geteuid ncview
+
+geteuid: geteuid.o
+	icc $(MYCFLAGS) -o geteuid geteuid.c
+
+clean::
+	-rm ncview ncview.exe $(OBJS) Makefile config.cache config.log config.status
+
+ncview: $(OBJS)
+	icc $(MYCFLAGS) -o ncview $(OBJS) $(LDOPTIONS) $(OTHERLIBDIRS)	\
+		 -L/scratch/PI/qying/lib/X11/usr/lib64 $(NETCDFLIB) $(UDUNITSLIB) $(XAWLIB) $(XMULIB) \
+		$(PPMLIB) \
+		 -lSM -lICE $(XTOOLLIB) $(XEXTLIB) $(XLIB)  -lm
+
+ncview.1: ncview.1.sed
+	sed s=NCVIEW_LIB_DIR=$(NCVIEW_LIB_DIR)= < ncview.1.sed > ncview.1
+
+install:: ncview ncview.1 Ncview-appdefaults
+##	Is variable NCVIEW_LIB_DIR defined? If yes, then make the directory
+##	if it doesn't already exist, and copy the colormap files to it.
+	@echo "----------------------------------------------------"
+	@echo "Installing binary in directory $(BINDIR)"
+	@echo "----------------------------------------------------"
+	if test ! -d $(BINDIR); then  mkdir -p $(BINDIR); fi; $(INSTALL) $(INSTBINFLAGS) ncview   $(BINDIR)/ncview
+	@echo "--------------------------------------------------------"
+	@echo "Installing manual in directory $(MANDIR)"
+	@echo "--------------------------------------------------------"
+	if test ! -d $(MANDIR); then mkdir -p $(MANDIR); fi; $(INSTALL) $(INSTMANFLAGS) ncview.1 $(MANDIR)/ncview.1
+	@echo "------------------------------------"
+	@echo "Installing application defaults file"
+	@echo "------------------------------------"
+	/bin/sh ./install-appdef "$(INSTALL) $(INSTMANFLAGS)"
+

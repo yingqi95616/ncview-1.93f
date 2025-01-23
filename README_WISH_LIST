@@ -1,0 +1,11 @@
+x-y transpose
+
+dynamic scale_fact/add_offset (i.e., change in every file)
+
+use http client if available?  www.innovation.ch/java/HTTPClient/
+
+better heurestic on setting displayed data range (i.e., center it if substantially around zero)
+
+button to make range "smaller around zero"
+
+ability to display colorbar when '-extra' specified

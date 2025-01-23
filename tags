@@ -1,0 +1,1012 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+APP_RES_VERSION	ncview.defines.h	36;"	d
+AdjustDimensions	SciPlot.c	/^AdjustDimensions(w)$/;"	f	file:
+AxisFont	SciPlotP.h	/^	int		AxisFont;$/;"	m
+AxisPos	SciPlotP.h	/^	real		AxisPos;$/;"	m
+BINDIR	Makefile	/^BINDIR = \/usr\/local\/bin$/;"	m
+BLOWUP_BILINEAR	ncview.defines.h	199;"	d
+BLOWUP_REPLICATE	ncview.defines.h	198;"	d
+BUTTONS_ALL_OFF	view.c	64;"	d	file:
+BUTTONS_ALL_ON	view.c	62;"	d	file:
+BUTTONS_TIMEAXIS_OFF	view.c	63;"	d	file:
+BUTTON_BACKWARDS	ncview.defines.h	47;"	d
+BUTTON_BLOWUP	ncview.defines.h	57;"	d
+BUTTON_BLOWUP_TYPE	ncview.defines.h	62;"	d
+BUTTON_COLORMAP_SELECT	ncview.defines.h	51;"	d
+BUTTON_DIMSET	ncview.defines.h	60;"	d
+BUTTON_EDIT	ncview.defines.h	64;"	d
+BUTTON_FASTFORWARD	ncview.defines.h	50;"	d
+BUTTON_FORWARD	ncview.defines.h	49;"	d
+BUTTON_INFO	ncview.defines.h	65;"	d
+BUTTON_INVERT_COLORMAP	ncview.defines.h	53;"	d
+BUTTON_INVERT_PHYSICAL	ncview.defines.h	52;"	d
+BUTTON_MAXIMUM	ncview.defines.h	55;"	d
+BUTTON_MINIMUM	ncview.defines.h	54;"	d
+BUTTON_OPTIONS	ncview.defines.h	67;"	d
+BUTTON_PAUSE	ncview.defines.h	48;"	d
+BUTTON_PRINT	ncview.defines.h	66;"	d
+BUTTON_QUIT	ncview.defines.h	56;"	d
+BUTTON_RANGE	ncview.defines.h	61;"	d
+BUTTON_RESTART	ncview.defines.h	58;"	d
+BUTTON_REWIND	ncview.defines.h	46;"	d
+BUTTON_SKIP	ncview.defines.h	63;"	d
+BUTTON_TRANSFORM	ncview.defines.h	59;"	d
+BackgroundColor	SciPlotP.h	/^	int		BackgroundColor;$/;"	m
+CAdecimals	SciPlot.c	/^static int CAdecimals[8]={  0,   0,    1,   0,   0,   0,   1,   0};$/;"	v	file:
+CAdeltas	SciPlot.c	/^static float CAdeltas[8]={0.1, 0.2, 0.25, 0.5, 1.0, 2.0, 2.5, 5.0};$/;"	v	file:
+CAminors	SciPlot.c	/^static int CAminors[8]  ={  4,   4,    4,   5,   4,   4,   4,   5};$/;"	v	file:
+Center	SciPlotP.h	/^	real		Center;$/;"	m
+ChartType	SciPlotP.h	/^	int		ChartType;$/;"	m
+CircleSet	SciPlot.c	/^CircleSet(w,x,y,r,color,style)$/;"	f	file:
+ClipClear	SciPlot.c	/^ClipClear(w)$/;"	f	file:
+ClipSet	SciPlot.c	/^ClipSet(w)$/;"	f	file:
+ColorStore	SciPlot.c	/^ColorStore(w,color)$/;"	f	file:
+ComputeAll	SciPlot.c	/^ComputeAll(w)$/;"	f	file:
+ComputeAllDimensions	SciPlot.c	/^ComputeAllDimensions(w)$/;"	f	file:
+ComputeAxis	SciPlot.c	/^ComputeAxis(axis,min,max,log)$/;"	f	file:
+ComputeDimensions	SciPlot.c	/^ComputeDimensions(w)$/;"	f	file:
+ComputeDrawingRange	SciPlot.c	/^ComputeDrawingRange(w)$/;"	f	file:
+ComputeLegendDimensions	SciPlot.c	/^ComputeLegendDimensions(w)$/;"	f	file:
+ComputeMinMax	SciPlot.c	/^ComputeMinMax(w)$/;"	f	file:
+DEFAULT_AUTO_OVERLAY	ncview.c	53;"	d	file:
+DEFAULT_BLOWUP	ncview.c	43;"	d	file:
+DEFAULT_BLOWUP_TYPE	ncview.c	47;"	d	file:
+DEFAULT_COLOR_BY_NDIMS	ncview.c	52;"	d	file:
+DEFAULT_DELTA_STEP	ncview.defines.h	178;"	d
+DEFAULT_DEVICE	do_print.c	41;"	d	file:
+DEFAULT_DEVICE	do_print.orig.c	41;"	d	file:
+DEFAULT_FILL_VALUE	ncview.defines.h	193;"	d
+DEFAULT_INVERT_COLORS	ncview.c	42;"	d	file:
+DEFAULT_INVERT_PHYSICAL	ncview.c	41;"	d	file:
+DEFAULT_LISTSEL_MAX	ncview.c	51;"	d	file:
+DEFAULT_MIN_MAX_METHOD	ncview.c	44;"	d	file:
+DEFAULT_NO_AUTOFLIP	ncview.c	50;"	d	file:
+DEFAULT_N_COLORS	ncview.c	45;"	d	file:
+DEFAULT_PRIVATE_CMAP	ncview.c	46;"	d	file:
+DEFAULT_SAVEFRAMES	ncview.c	49;"	d	file:
+DEFAULT_SHRINK_METHOD	ncview.c	48;"	d	file:
+DEG2RAD	SciPlotP.h	49;"	d
+DEVICE_FILE	ncview.defines.h	218;"	d
+DEVICE_PRINTER	ncview.defines.h	217;"	d
+DIMENSION_NONE	ncview.defines.h	157;"	d
+DIMENSION_SCAN	ncview.defines.h	156;"	d
+DIMENSION_X	ncview.defines.h	154;"	d
+DIMENSION_Y	ncview.defines.h	155;"	d
+Degrees	SciPlotP.h	/^	Boolean		Degrees;$/;"	m
+Destroy	SciPlot.c	/^Destroy(w)$/;"	f	file:
+DrawAll	SciPlot.c	/^DrawAll(w)$/;"	f	file:
+DrawCartesianAxes	SciPlot.c	/^DrawCartesianAxes(w)$/;"	f	file:
+DrawCartesianPlot	SciPlot.c	/^DrawCartesianPlot(w)$/;"	f	file:
+DrawLegend	SciPlot.c	/^DrawLegend(w)$/;"	f	file:
+DrawMajor	SciPlotP.h	/^	Boolean		DrawMajor;$/;"	m
+DrawMajorTics	SciPlotP.h	/^	Boolean		DrawMajorTics;$/;"	m
+DrawMarker	SciPlot.c	/^DrawMarker(w,xpaper,ypaper,size,color,style)$/;"	f	file:
+DrawMax	SciPlotP.h	/^	real		DrawMax;$/;"	m
+DrawMinor	SciPlotP.h	/^	Boolean		DrawMinor;$/;"	m
+DrawMinorTics	SciPlotP.h	/^	Boolean		DrawMinorTics;$/;"	m
+DrawOrigin	SciPlotP.h	/^	real		DrawOrigin;$/;"	m
+DrawPolarAxes	SciPlot.c	/^DrawPolarAxes(w)$/;"	f	file:
+DrawPolarPlot	SciPlot.c	/^DrawPolarPlot(w)$/;"	f	file:
+DrawSize	SciPlotP.h	/^	real		DrawSize;$/;"	m
+EraseAll	SciPlot.c	/^EraseAll(w)$/;"	f	file:
+FALSE	ncview.defines.h	42;"	d
+FDBlist	ncview.defines.h	/^} FDBlist;	$/;"	t
+FILE_TYPE_NETCDF	ncview.defines.h	127;"	d
+FONT_NAME	do_print.c	38;"	d	file:
+FONT_NAME	do_print.orig.c	38;"	d	file:
+FONT_SIZE	do_print.c	36;"	d	file:
+FONT_SIZE	do_print.orig.c	36;"	d	file:
+FRAMES	ncview.defines.h	145;"	d
+FilledCircleSet	SciPlot.c	/^FilledCircleSet(w,x,y,r,color,style)$/;"	f	file:
+FilledQuadSet	SciPlot.c	/^FilledQuadSet(w,x1,y1,x2,y2,x3,y3,x4,y4,color,style)$/;"	f	file:
+FilledRectSet	SciPlot.c	/^FilledRectSet(w,x1,y1,x2,y2,color,style)$/;"	f	file:
+FilledTriSet	SciPlot.c	/^FilledTriSet(w,x1,y1,x2,y2,x3,y3,color,style)$/;"	f	file:
+FontAscent	SciPlot.c	/^FontAscent(f)$/;"	f	file:
+FontDescLookup	SciPlot.c	/^FontDescLookup(flag)$/;"	f	file:
+FontDescent	SciPlot.c	/^FontDescent(f)$/;"	f	file:
+FontFromFontnum	SciPlot.c	/^*FontFromFontnum(w,fontnum)$/;"	f	file:
+FontHeight	SciPlot.c	/^FontHeight(f)$/;"	f	file:
+FontInit	SciPlot.c	/^FontInit(w,pf)$/;"	f	file:
+FontStore	SciPlot.c	/^FontStore(w,flag)$/;"	f	file:
+FontTextWidth	SciPlot.c	/^FontTextWidth(f,c)$/;"	f	file:
+FontX11String	SciPlot.c	/^FontX11String(flag,str)$/;"	f	file:
+FontnumAscent	SciPlot.c	/^FontnumAscent(w,fontnum)$/;"	f	file:
+FontnumDescent	SciPlot.c	/^FontnumDescent(w,fontnum)$/;"	f	file:
+FontnumHeight	SciPlot.c	/^FontnumHeight(w,fontnum)$/;"	f	file:
+FontnumPostScriptString	SciPlot.c	/^FontnumPostScriptString(w,fontnum,str)$/;"	f	file:
+FontnumReplace	SciPlot.c	/^FontnumReplace(w,fontnum,flag)$/;"	f	file:
+FontnumStore	SciPlot.c	/^FontnumStore(w,fontnum,flag)$/;"	f	file:
+FontnumTextWidth	SciPlot.c	/^FontnumTextWidth(w,fontnum,c)$/;"	f	file:
+ForegroundColor	SciPlotP.h	/^	int		ForegroundColor;$/;"	m
+FrameStore	ncview.defines.h	/^} FrameStore;$/;"	t
+HEADERS	Makefile	/^HEADERS = ncview.bitmaps.h ncview.includes.h 		\\$/;"	m
+HEADER_FONT_SIZE	do_print.c	37;"	d	file:
+HEADER_FONT_SIZE	do_print.orig.c	37;"	d	file:
+ID_FONT_SIZE_SCALE	do_print.c	49;"	d	file:
+ID_FONT_SIZE_SCALE	do_print.orig.c	49;"	d	file:
+INCDIR	Makefile	/^INCDIR =  -I\/usr\/X11R6\/include$/;"	m
+INCLUDE_AXIS_LABELS	do_print.c	44;"	d	file:
+INCLUDE_AXIS_LABELS	do_print.orig.c	44;"	d	file:
+INCLUDE_EXTRA_INFO	do_print.c	45;"	d	file:
+INCLUDE_EXTRA_INFO	do_print.orig.c	45;"	d	file:
+INCLUDE_ID	do_print.c	46;"	d	file:
+INCLUDE_ID	do_print.orig.c	46;"	d	file:
+INCLUDE_OUTLINE	do_print.c	42;"	d	file:
+INCLUDE_OUTLINE	do_print.orig.c	42;"	d	file:
+INCLUDE_TITLE	do_print.c	43;"	d	file:
+INCLUDE_TITLE	do_print.orig.c	43;"	d	file:
+INC_PPM	Makefile	/^INC_PPM   = -DINC_PPM$/;"	m
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+IceConnectionNumber	configure	/^IceConnectionNumber ();$/;"	f
+Initialize	SciPlot.c	/^Initialize(treq,tnew,args,num)$/;"	f	file:
+ItemDraw	SciPlot.c	/^ItemDraw(w,item)$/;"	f	file:
+ItemDrawAll	SciPlot.c	/^ItemDrawAll(w)$/;"	f	file:
+ItemGetFontGC	SciPlot.c	/^ItemGetFontGC(w,item)$/;"	f	file:
+ItemGetGC	SciPlot.c	/^ItemGetGC(w,item)$/;"	f	file:
+ItemGetNew	SciPlot.c	/^ItemGetNew(w)$/;"	f	file:
+ItemPSDrawAll	SciPlot.c	/^ItemPSDrawAll(w,fd,yflip)$/;"	f	file:
+JULGREG	epic_time.c	17;"	d	file:
+LABEL_1	ncview.defines.h	86;"	d
+LABEL_2	ncview.defines.h	87;"	d
+LABEL_3	ncview.defines.h	88;"	d
+LABEL_4	ncview.defines.h	89;"	d
+LABEL_5	ncview.defines.h	90;"	d
+LABEL_BLOWUP	ncview.defines.h	93;"	d
+LABEL_BLOWUP_TYPE	ncview.defines.h	97;"	d
+LABEL_CCINFO_1	ncview.defines.h	95;"	d
+LABEL_CCINFO_2	ncview.defines.h	96;"	d
+LABEL_COLORMAP_NAME	ncview.defines.h	92;"	d
+LABEL_DATA_EXTREMA	ncview.defines.h	103;"	d
+LABEL_DATA_VALUE	ncview.defines.h	104;"	d
+LABEL_SCANVAR_NAME	ncview.defines.h	101;"	d
+LABEL_SCAN_PLACE	ncview.defines.h	102;"	d
+LABEL_SKIP	ncview.defines.h	98;"	d
+LABEL_TITLE	ncview.defines.h	100;"	d
+LABEL_TRANSFORM	ncview.defines.h	94;"	d
+LEADING	do_print.c	39;"	d	file:
+LEADING	do_print.orig.c	39;"	d	file:
+LabelFont	SciPlotP.h	/^	int		LabelFont;$/;"	m
+LabelPos	SciPlotP.h	/^	real		LabelPos;$/;"	m
+LegendLineSize	SciPlotP.h	/^	int		LegendLineSize;$/;"	m
+LegendMargin	SciPlotP.h	/^	int		LegendMargin;$/;"	m
+LegendPos	SciPlotP.h	/^	real		LegendPos;$/;"	m
+LegendSize	SciPlotP.h	/^	real		LegendSize;$/;"	m
+LineColor	SciPlotP.h	/^	int		LineColor;$/;"	m
+LineSet	SciPlot.c	/^LineSet(w,x1,y1,x2,y2,color,style)$/;"	f	file:
+LineStyle	SciPlotP.h	/^	int		LineStyle;$/;"	m
+List_AllocData	SciPlot.c	/^List_AllocData(p,num)$/;"	f	file:
+List_Delete	SciPlot.c	/^List_Delete(p)$/;"	f	file:
+List_Find	SciPlot.c	/^List_Find(w,id)$/;"	f	file:
+List_New	SciPlot.c	/^List_New(w)$/;"	f	file:
+List_SetDouble	SciPlot.c	/^List_SetDouble(p,num,xlist,ylist)$/;"	f	file:
+List_SetFloat	SciPlot.c	/^List_SetFloat(p,num,xlist,ylist)$/;"	f	file:
+List_SetLegend	SciPlot.c	/^List_SetLegend(p,legend)$/;"	f	file:
+List_SetReal	SciPlot.c	/^List_SetReal(p,num,xlist,ylist)$/;"	f	file:
+List_SetStyle	SciPlot.c	/^List_SetStyle(p,pcolor,pstyle,lcolor,lstyle)$/;"	f	file:
+MANDIR	Makefile	/^MANDIR = \/usr\/local\/man\/man1$/;"	m
+MAX_DISPLAYED_STRING_LENGTH	ncview.defines.h	150;"	d
+MAX_DISPLAY_POPUPS	ncview.defines.h	123;"	d
+MAX_FILE_NAME_LEN	ncview.defines.h	135;"	d
+MAX_LINES_PER_PLOT	ncview.defines.h	118;"	d
+MAX_MAJOR	SciPlot.c	1976;"	d	file:
+MAX_PLOT_XY	ncview.defines.h	117;"	d
+MAX_RECDIM_UNITS_LEN	ncview.defines.h	139;"	d
+MAX_VAR_NAME_LEN	ncview.defines.h	131;"	d
+MESSAGE_CANCEL	ncview.defines.h	169;"	d
+MESSAGE_OK	ncview.defines.h	168;"	d
+MIN_MAX_METHOD_EXHAUST	ncview.defines.h	185;"	d
+MIN_MAX_METHOD_FAST	ncview.defines.h	182;"	d
+MIN_MAX_METHOD_MED	ncview.defines.h	183;"	d
+MIN_MAX_METHOD_SLOW	ncview.defines.h	184;"	d
+MOD_1	ncview.defines.h	161;"	d
+MOD_2	ncview.defines.h	162;"	d
+MOD_3	ncview.defines.h	163;"	d
+MOD_4	ncview.defines.h	164;"	d
+MYCFLAGS	Makefile	/^MYCFLAGS = -g -O2  -I\/usr\/X11R6\/include $(INC_UDUNITS) $(INC_PPM)$/;"	m
+MajorInc	SciPlotP.h	/^	real		MajorInc;$/;"	m
+MajorNum	SciPlotP.h	/^	int		MajorNum;$/;"	m
+MajorTicSize	SciPlotP.h	/^	int		MajorTicSize;$/;"	m
+Margin	SciPlotP.h	/^	int		Margin;$/;"	m
+Max	SciPlotP.h	/^	realpair	Min,Max;$/;"	m
+Min	SciPlotP.h	/^	realpair	Min,Max;$/;"	m
+MinorNum	SciPlotP.h	/^	int		MinorNum;$/;"	m
+NCDim	ncview.defines.h	/^} NCDim;$/;"	t
+NCVIEW_LIB_DIR	Makefile	/^NCVIEW_LIB_DIR = \/usr\/local\/lib\/ncview$/;"	m
+NCVar	ncview.defines.h	/^} NCVar;$/;"	t
+NETCDFINCDIR	Makefile	/^NETCDFINCDIR = -I\/opt\/netcdf\/include$/;"	m
+NETCDFLIB	Makefile	/^NETCDFLIB    = -lnetcdf$/;"	m
+NETCDFLIBDIR	Makefile	/^NETCDFLIBDIR = -L\/opt\/netcdf\/lib$/;"	m
+NUMBER_MINOR	SciPlot.c	1975;"	d	file:
+NUMPLOTDATAEXTRA	SciPlotP.h	46;"	d
+NUMPLOTITEMALLOC	SciPlotP.h	47;"	d
+NUMPLOTITEMEXTRA	SciPlotP.h	48;"	d
+NUMPLOTLINEALLOC	SciPlotP.h	45;"	d
+N_TRANSFORMS	ncview.defines.h	108;"	d
+NetCDFOptions	ncview.defines.h	/^} NetCDFOptions;$/;"	t
+OBJS	Makefile	/^OBJS = 	ncview.o file.o util.o do_buttons.o		\\$/;"	m
+OTHERINCDIRS	Makefile	/^OTHERINCDIRS = $(NETCDFINCDIR) $(UDUNITSINCDIR)$/;"	m
+OTHERLIBDIRS	Makefile	/^OTHERLIBDIRS = $(NETCDFLIBDIR) $(UDUNITSLIBDIR)$/;"	m
+OVERLAY_CUSTOM	ncview.defines.h	76;"	d
+OVERLAY_NONE	ncview.defines.h	72;"	d
+OVERLAY_N_OVERLAYS	ncview.defines.h	78;"	d
+OVERLAY_P08DEG	ncview.defines.h	74;"	d
+OVERLAY_P8DEG	ncview.defines.h	73;"	d
+OVERLAY_USA	ncview.defines.h	75;"	d
+Options	ncview.defines.h	/^} Options;$/;"	t
+Origin	SciPlotP.h	/^	real		Origin;$/;"	m
+OverlayOptions	ncview.defines.h	/^} OverlayOptions;$/;"	t
+PAGE_HEIGHT_INCHES	do_print.c	31;"	d	file:
+PAGE_HEIGHT_INCHES	do_print.orig.c	31;"	d	file:
+PAGE_LOWER_Y_MARGIN	do_print.c	34;"	d	file:
+PAGE_LOWER_Y_MARGIN	do_print.orig.c	34;"	d	file:
+PAGE_UPPER_Y_MARGIN	do_print.c	33;"	d	file:
+PAGE_UPPER_Y_MARGIN	do_print.orig.c	33;"	d	file:
+PAGE_WIDTH_INCHES	do_print.c	30;"	d	file:
+PAGE_WIDTH_INCHES	do_print.orig.c	30;"	d	file:
+PAGE_X_MARGIN	do_print.c	32;"	d	file:
+PAGE_X_MARGIN	do_print.orig.c	32;"	d	file:
+PERCENT	ncview.defines.h	146;"	d
+PPMINCDIR	Makefile	/^PPMINCDIR = -I\/usr\/include$/;"	m
+PPMLIB	Makefile	/^PPMLIB = -lnetpbm$/;"	m
+PPMLIBDIR	Makefile	/^PPMLIBDIR = -L.$/;"	m
+PROGRAM_ID	ncview.defines.h	34;"	d
+PROGRAM_VERSION	ncview.defines.h	35;"	d
+PSUsesOblique	SciPlotP.h	/^	Boolean		PSUsesOblique;$/;"	m
+PSUsesRoman	SciPlotP.h	/^	Boolean		PSUsesRoman;$/;"	m
+PSbox	SciPlot.c	/^	PSbox,PSfbox,$/;"	e	enum:PSenums	file:
+PScircle	SciPlot.c	/^	PScircle,PSfcircle,$/;"	e	enum:PSenums	file:
+PSclipbox	SciPlot.c	/^	PSclipbox,PSunclip,$/;"	e	enum:PSenums	file:
+PScommands	SciPlot.c	/^} PScommands;$/;"	t	file:
+PSdot	SciPlot.c	/^	PSsolid,PSdot,PSwidedot$/;"	e	enum:PSenums	file:
+PSendfill	SciPlot.c	/^	PSpolyline,PSendpoly,PSendfill,$/;"	e	enum:PSenums	file:
+PSendpoly	SciPlot.c	/^	PSpolyline,PSendpoly,PSendfill,$/;"	e	enum:PSenums	file:
+PSenums	SciPlot.c	/^enum PSenums {$/;"	g	file:
+PSfbox	SciPlot.c	/^	PSbox,PSfbox,$/;"	e	enum:PSenums	file:
+PSfcircle	SciPlot.c	/^	PScircle,PSfcircle,$/;"	e	enum:PSenums	file:
+PSlineto	SciPlot.c	/^	PSmoveto,PSlineto,$/;"	e	enum:PSenums	file:
+PSmoveto	SciPlot.c	/^	PSmoveto,PSlineto,$/;"	e	enum:PSenums	file:
+PSnormal	SciPlot.c	/^	PSvmoveto,PSnormal,$/;"	e	enum:PSenums	file:
+PSpolyline	SciPlot.c	/^	PSpolyline,PSendpoly,PSendfill,$/;"	e	enum:PSenums	file:
+PSsolid	SciPlot.c	/^	PSsolid,PSdot,PSwidedot$/;"	e	enum:PSenums	file:
+PSunclip	SciPlot.c	/^	PSclipbox,PSunclip,$/;"	e	enum:PSenums	file:
+PSvmoveto	SciPlot.c	/^	PSvmoveto,PSnormal,$/;"	e	enum:PSenums	file:
+PSwidedot	SciPlot.c	/^	PSsolid,PSdot,PSwidedot$/;"	e	enum:PSenums	file:
+P_	SciPlot.h	130;"	d
+P_	SciPlot.h	132;"	d
+P_	SciPlot.h	164;"	d
+PlotRT	SciPlot.c	/^PlotRT(w,r,t,xout,yout)$/;"	f	file:
+PlotRTDegrees	SciPlot.c	/^PlotRTDegrees(w,r,t,xout,yout)$/;"	f	file:
+PlotRTRadians	SciPlot.c	/^PlotRTRadians(w,r,t,xout,yout)$/;"	f	file:
+PlotX	SciPlot.c	/^PlotX(w,xin)$/;"	f	file:
+PlotY	SciPlot.c	/^PlotY(w,yin)$/;"	f	file:
+PointColor	SciPlotP.h	/^	int		PointColor;$/;"	m
+PointStyle	SciPlotP.h	/^	int		PointStyle;$/;"	m
+PolarScale	SciPlotP.h	/^	real		PolarScale;$/;"	m
+PostScript	SciPlotP.h	/^	char		*PostScript;$/;"	m
+Precision	SciPlotP.h	/^	int		Precision;$/;"	m
+PrintOptions	ncview.defines.h	/^} PrintOptions;$/;"	t
+QuadSet	SciPlot.c	/^QuadSet(w,x1,y1,x2,y2,x3,y3,x4,y4,color,style)$/;"	f	file:
+RectSet	SciPlot.c	/^RectSet(w,x1,y1,x2,y2,color,style)$/;"	f	file:
+Redisplay	SciPlot.c	/^static void Redisplay(w)$/;"	f	file:
+Resize	SciPlot.c	/^static void Resize(w)$/;"	f	file:
+SHRINK_METHOD_MEAN	ncview.defines.h	204;"	d
+SHRINK_METHOD_MODE	ncview.defines.h	205;"	d
+SUFFIXES	Makefile	/^SUFFIXES = $/;"	m
+ScaleToFit	SciPlotP.h	/^	Boolean		ScaleToFit;$/;"	m
+Scale_expon	SciPlotP.h	/^	int		Scale_expon;$/;"	m
+Scalefact	SciPlotP.h	/^	double		Scalefact;$/;"	m
+SciPlotAddXAxisCallback	SciPlot.c	/^SciPlotAddXAxisCallback(wi,cb)$/;"	f
+SciPlotAllocNamedColor	SciPlot.c	/^SciPlotAllocNamedColor(wi,name)$/;"	f
+SciPlotAllocRGBColor	SciPlot.c	/^SciPlotAllocRGBColor(wi,r,g,b)$/;"	f
+SciPlotAxis	SciPlotP.h	/^} SciPlotAxis;$/;"	t
+SciPlotCircle	SciPlotP.h	/^	SciPlotCircle,$/;"	e
+SciPlotClassPart	SciPlotP.h	/^} SciPlotClassPart;$/;"	t
+SciPlotClassRec	SciPlotP.h	/^} SciPlotClassRec;$/;"	t
+SciPlotClipClear	SciPlotP.h	/^	SciPlotClipClear,$/;"	e
+SciPlotClipRegion	SciPlotP.h	/^	SciPlotClipRegion,$/;"	e
+SciPlotENDOFLIST	SciPlotP.h	/^	SciPlotENDOFLIST$/;"	e
+SciPlotEndTextTypes	SciPlotP.h	/^	SciPlotEndTextTypes,$/;"	e
+SciPlotExportData	SciPlot.c	/^SciPlotExportData(wi,fd)$/;"	f
+SciPlotFALSE	SciPlotP.h	/^	SciPlotFALSE,$/;"	e
+SciPlotFCircle	SciPlotP.h	/^	SciPlotFCircle,$/;"	e
+SciPlotFPoly	SciPlotP.h	/^	SciPlotFPoly,$/;"	e
+SciPlotFRect	SciPlotP.h	/^	SciPlotFRect,$/;"	e
+SciPlotFont	SciPlotP.h	/^} SciPlotFont;$/;"	t
+SciPlotFontDesc	SciPlotP.h	/^} SciPlotFontDesc;$/;"	t
+SciPlotItem	SciPlotP.h	/^} SciPlotItem;$/;"	t
+SciPlotLine	SciPlotP.h	/^	SciPlotLine,$/;"	e
+SciPlotList	SciPlotP.h	/^} SciPlotList;$/;"	t
+SciPlotListCreateFromData	SciPlot.c	/^SciPlotListCreateFromData(wi,num,xlist,ylist,legend,pcolor,pstyle,lcolor,lstyle)$/;"	f
+SciPlotListCreateFromDouble	SciPlot.c	/^SciPlotListCreateFromDouble(wi,num,xlist,ylist,legend)$/;"	f
+SciPlotListCreateFromFloat	SciPlot.c	/^SciPlotListCreateFromFloat(wi,num,xlist,ylist,legend)$/;"	f
+SciPlotListDelete	SciPlot.c	/^SciPlotListDelete(wi,id)$/;"	f
+SciPlotListSetStyle	SciPlot.c	/^SciPlotListSetStyle(wi,id,pcolor,pstyle,lcolor,lstyle)$/;"	f
+SciPlotListUpdateFromDouble	SciPlot.c	/^SciPlotListUpdateFromDouble(wi,id,num,xlist,ylist)$/;"	f
+SciPlotListUpdateFromFloat	SciPlot.c	/^SciPlotListUpdateFromFloat(wi,id,num,xlist,ylist)$/;"	f
+SciPlotPSCreate	SciPlot.c	/^SciPlotPSCreate(wi,filename)$/;"	f
+SciPlotPSCreateFancy	SciPlot.c	/^SciPlotPSCreateFancy(w,filename,drawborder,titles)$/;"	f
+SciPlotPart	SciPlotP.h	/^} SciPlotPart;$/;"	t
+SciPlotPoint	SciPlotP.h	/^	SciPlotPoint,$/;"	e
+SciPlotPoly	SciPlotP.h	/^	SciPlotPoly,$/;"	e
+SciPlotPrintStatistics	SciPlot.c	/^SciPlotPrintStatistics(wi)$/;"	f
+SciPlotQueryXScale	SciPlot.c	/^SciPlotQueryXScale(wi,min,max)$/;"	f
+SciPlotQueryYScale	SciPlot.c	/^SciPlotQueryYScale(wi,min,max)$/;"	f
+SciPlotRec	SciPlotP.h	/^} SciPlotRec;$/;"	t
+SciPlotRect	SciPlotP.h	/^	SciPlotRect,$/;"	e
+SciPlotScreenToDataX	SciPlot.c	/^SciPlotScreenToDataX(wi,xscreen)$/;"	f
+SciPlotScreenToDataY	SciPlot.c	/^SciPlotScreenToDataY(wi,yscreen)$/;"	f
+SciPlotSetBackgroundColor	SciPlot.c	/^SciPlotSetBackgroundColor(wi,color)$/;"	f
+SciPlotSetForegroundColor	SciPlot.c	/^SciPlotSetForegroundColor(wi,color)$/;"	f
+SciPlotSetXAutoScale	SciPlot.c	/^SciPlotSetXAutoScale(wi)$/;"	f
+SciPlotSetXUserScale	SciPlot.c	/^SciPlotSetXUserScale(wi,min,max)$/;"	f
+SciPlotSetYAutoScale	SciPlot.c	/^SciPlotSetYAutoScale(wi)$/;"	f
+SciPlotSetYUserScale	SciPlot.c	/^SciPlotSetYUserScale(wi,min,max)$/;"	f
+SciPlotStartTextTypes	SciPlotP.h	/^	SciPlotStartTextTypes,$/;"	e
+SciPlotText	SciPlotP.h	/^	SciPlotText,$/;"	e
+SciPlotTypeEnum	SciPlotP.h	/^} SciPlotTypeEnum;$/;"	t
+SciPlotUpdate	SciPlot.c	/^SciPlotUpdate(wi)$/;"	f
+SciPlotVText	SciPlotP.h	/^	SciPlotVText,$/;"	e
+SciPlotWidget	SciPlot.h	/^typedef struct _SciPlotRec      *SciPlotWidget;$/;"	t
+SciPlotWidgetClass	SciPlot.h	/^typedef struct _SciPlotClassRec *SciPlotWidgetClass;$/;"	t
+SetValues	SciPlot.c	/^SetValues(current, request, new, args, nargs)$/;"	f	file:
+ShowLegend	SciPlotP.h	/^	Boolean		ShowLegend;$/;"	m
+ShowTitle	SciPlotP.h	/^	Boolean		ShowTitle;$/;"	m
+ShowXLabel	SciPlotP.h	/^	Boolean		ShowXLabel;$/;"	m
+ShowYLabel	SciPlotP.h	/^	Boolean		ShowYLabel;$/;"	m
+Size	SciPlotP.h	/^	real		Size;$/;"	m
+Stringlist	ncview.defines.h	/^} Stringlist;$/;"	t
+TEST_ONLY	do_print.c	47;"	d	file:
+TEST_ONLY	do_print.orig.c	47;"	d	file:
+TGRAN_DAY	ncview.defines.h	240;"	d
+TGRAN_HOUR	ncview.defines.h	239;"	d
+TGRAN_MIN	ncview.defines.h	238;"	d
+TGRAN_MONTH	ncview.defines.h	241;"	d
+TGRAN_SEC	ncview.defines.h	237;"	d
+TGRAN_YEAR	ncview.defines.h	242;"	d
+TRANSFORM_HI	ncview.defines.h	111;"	d
+TRANSFORM_LOW	ncview.defines.h	110;"	d
+TRANSFORM_NONE	ncview.defines.h	109;"	d
+TRUE	ncview.defines.h	39;"	d
+TSTD_EPIC_0	ncview.defines.h	231;"	d
+TSTD_MONTHS	ncview.defines.h	232;"	d
+TSTD_UDUNITS	ncview.defines.h	230;"	d
+TextCenter	SciPlot.c	/^TextCenter(w,x,y,text,color,font)$/;"	f	file:
+TextSet	SciPlot.c	/^TextSet(w,x,y,text,color,font)$/;"	f	file:
+TitleFID	SciPlotP.h	/^	Font		TitleFID;$/;"	m
+TitleFont	SciPlotP.h	/^	int		TitleFont;$/;"	m
+TitleMargin	SciPlotP.h	/^	int		TitleMargin;$/;"	m
+TitlePos	SciPlotP.h	/^	real		TitlePos;$/;"	m
+TransientPlotTitle	SciPlotP.h	/^	char		*TransientPlotTitle;$/;"	m
+TransientXLabel	SciPlotP.h	/^	char		*TransientXLabel;$/;"	m
+TransientYLabel	SciPlotP.h	/^	char		*TransientYLabel;$/;"	m
+TriSet	SciPlot.c	/^TriSet(w,x1,y1,x2,y2,x3,y3,color,style)$/;"	f	file:
+UniqList	udu.c	/^} UniqList;$/;"	t	file:
+UserMax	SciPlotP.h	/^	realpair	UserMin,UserMax;$/;"	m
+UserMin	SciPlotP.h	/^	realpair	UserMin,UserMax;$/;"	m
+VARSEL_LIST	ncview.defines.h	224;"	d
+VARSEL_MENU	ncview.defines.h	225;"	d
+VDS_EDITED	ncview.defines.h	212;"	d
+VDS_INVALID	ncview.defines.h	211;"	d
+VDS_VALID	ncview.defines.h	210;"	d
+VTextCenter	SciPlot.c	/^VTextCenter(w,x,y,text,color,font)$/;"	f	file:
+VTextSet	SciPlot.c	/^VTextSet(w,x,y,text,color,font)$/;"	f	file:
+View	ncview.defines.h	/^} View;$/;"	t
+X11	SciPlotP.h	/^	char		*X11;$/;"	m
+XAWLIB	Makefile	/^XAWLIB   = -lXaw$/;"	m
+XAutoScale	SciPlotP.h	/^	Boolean		XAutoScale;$/;"	m
+XDrawVString	SciPlot.c	/^XDrawVString(display,win,gc,x,y,str,len,f)$/;"	f	file:
+XEXTLIB	Makefile	/^XEXTLIB  = -lXext$/;"	m
+XFmtCallback	SciPlotP.h	/^	void		(*XFmtCallback)(Widget w, float f, char *s);$/;"	m
+XLIB	Makefile	/^XLIB     = -lX11$/;"	m
+XLog	SciPlotP.h	/^	Boolean		XLog;$/;"	m
+XMULIB	Makefile	/^XMULIB   = -lXmu$/;"	m
+XOpenDisplay	configure	/^XOpenDisplay ();$/;"	f
+XOrigin	SciPlotP.h	/^	Boolean		XOrigin;$/;"	m
+XTOOLLIB	Makefile	/^XTOOLLIB = -lXt$/;"	m
+XtCARTESIAN	SciPlot.h	72;"	d
+XtFONT_ATTRIBUTE_DEFAULT	SciPlot.h	110;"	d
+XtFONT_ATTRIBUTE_MASK	SciPlot.h	106;"	d
+XtFONT_BOLD	SciPlot.h	107;"	d
+XtFONT_BOLD_ITALIC	SciPlot.h	109;"	d
+XtFONT_COURIER	SciPlot.h	99;"	d
+XtFONT_HELVETICA	SciPlot.h	100;"	d
+XtFONT_ITALIC	SciPlot.h	108;"	d
+XtFONT_LUCIDA	SciPlot.h	101;"	d
+XtFONT_LUCIDASANS	SciPlot.h	102;"	d
+XtFONT_NAME_DEFAULT	SciPlot.h	104;"	d
+XtFONT_NAME_MASK	SciPlot.h	97;"	d
+XtFONT_NCSCHOOLBOOK	SciPlot.h	103;"	d
+XtFONT_SIZE_DEFAULT	SciPlot.h	95;"	d
+XtFONT_SIZE_MASK	SciPlot.h	94;"	d
+XtFONT_TIMES	SciPlot.h	98;"	d
+XtIsSciPlot	SciPlot.h	33;"	d
+XtLINE_DOTTED	SciPlot.h	115;"	d
+XtLINE_NONE	SciPlot.h	113;"	d
+XtLINE_SOLID	SciPlot.h	114;"	d
+XtLINE_USERDASH	SciPlot.h	117;"	d
+XtLINE_WIDEDOT	SciPlot.h	116;"	d
+XtMARKER_BOWTIE	SciPlot.h	83;"	d
+XtMARKER_CIRCLE	SciPlot.h	75;"	d
+XtMARKER_DIAMOND	SciPlot.h	81;"	d
+XtMARKER_DTRIANGLE	SciPlot.h	78;"	d
+XtMARKER_FBOWTIE	SciPlot.h	92;"	d
+XtMARKER_FCIRCLE	SciPlot.h	84;"	d
+XtMARKER_FDIAMOND	SciPlot.h	90;"	d
+XtMARKER_FDTRIANGLE	SciPlot.h	87;"	d
+XtMARKER_FHOURGLASS	SciPlot.h	91;"	d
+XtMARKER_FLTRIANGLE	SciPlot.h	88;"	d
+XtMARKER_FRTRIANGLE	SciPlot.h	89;"	d
+XtMARKER_FSQUARE	SciPlot.h	85;"	d
+XtMARKER_FUTRIANGLE	SciPlot.h	86;"	d
+XtMARKER_HOURGLASS	SciPlot.h	82;"	d
+XtMARKER_LTRIANGLE	SciPlot.h	79;"	d
+XtMARKER_NONE	SciPlot.h	74;"	d
+XtMARKER_RTRIANGLE	SciPlot.h	80;"	d
+XtMARKER_SQUARE	SciPlot.h	76;"	d
+XtMARKER_UTRIANGLE	SciPlot.h	77;"	d
+XtNaxisFont	SciPlot.h	69;"	d
+XtNchartType	SciPlot.h	44;"	d
+XtNdegrees	SciPlot.h	45;"	d
+XtNdrawMajor	SciPlot.h	46;"	d
+XtNdrawMajorTics	SciPlot.h	47;"	d
+XtNdrawMinor	SciPlot.h	48;"	d
+XtNdrawMinorTics	SciPlot.h	49;"	d
+XtNlabelFont	SciPlot.h	68;"	d
+XtNlegendLineSize	SciPlot.h	65;"	d
+XtNlegendMargin	SciPlot.h	66;"	d
+XtNmargin	SciPlot.h	59;"	d
+XtNplotTitle	SciPlot.h	58;"	d
+XtNshowLegend	SciPlot.h	61;"	d
+XtNshowTitle	SciPlot.h	62;"	d
+XtNshowXLabel	SciPlot.h	63;"	d
+XtNshowYLabel	SciPlot.h	64;"	d
+XtNtitleFont	SciPlot.h	67;"	d
+XtNtitleMargin	SciPlot.h	60;"	d
+XtNxAutoScale	SciPlot.h	50;"	d
+XtNxLabel	SciPlot.h	56;"	d
+XtNxLog	SciPlot.h	52;"	d
+XtNxOrigin	SciPlot.h	54;"	d
+XtNyAutoScale	SciPlot.h	51;"	d
+XtNyLabel	SciPlot.h	57;"	d
+XtNyLog	SciPlot.h	53;"	d
+XtNyOrigin	SciPlot.h	55;"	d
+XtPOLAR	SciPlot.h	71;"	d
+YAutoScale	SciPlotP.h	/^	Boolean		YAutoScale;$/;"	m
+YLog	SciPlotP.h	/^	Boolean		YLog;$/;"	m
+YOrigin	SciPlotP.h	/^	Boolean		YOrigin;$/;"	m
+_SCIPLOTP_H	SciPlotP.h	26;"	d
+_SCIPLOT_H	SciPlot.h	26;"	d
+_SCIPLOT_WIDGET_VERSION	SciPlot.h	30;"	d
+_SciPlotClassRec	SciPlotP.h	/^typedef struct _SciPlotClassRec {$/;"	s
+_SciPlotItem	SciPlotP.h	/^typedef struct _SciPlotItem {$/;"	s
+_SciPlotRec	SciPlotP.h	/^typedef struct _SciPlotRec {$/;"	s
+add_offset	ncview.defines.h	/^		add_offset;$/;"	m
+add_offset_set	ncview.defines.h	/^		add_offset_set;$/;"	m
+add_to_stringlist	util.c	/^add_to_stringlist( Stringlist **list, char *new_string, void *aux )$/;"	f
+add_to_stringlist_ordered	util.c	/^add_to_stringlist_ordered( Stringlist **list, char *new_string, void *aux )$/;"	f
+add_to_varlist	util.c	/^add_to_varlist( NCVar **list, NCVar *new_el )$/;"	f
+add_var_to_list	util.c	/^add_var_to_list( char *var_name, int file_id, char *filename, int nfiles )$/;"	f
+add_vars_to_list	util.c	/^add_vars_to_list( Stringlist *var_list, int id, char *filename, int nfiles )$/;"	f
+alloc_drawlist	SciPlotP.h	/^	int		alloc_drawlist;$/;"	m
+alloc_plotlist	SciPlotP.h	/^	int		alloc_plotlist;$/;"	m
+alloc_view_storage	view.c	/^alloc_view_storage( View *view )$/;"	f	file:
+allocated	SciPlotP.h	/^	int		allocated;$/;"	m
+any	SciPlotP.h	/^		} any;$/;"	m	union:_SciPlotItem::<anonymous>
+auto_overlay	ncview.defines.h	/^		auto_overlay,	\/* if 1, then tries to figure out if coastlines should automatically be added *\/$/;"	m
+aux	ncview.defines.h	/^	void	*aux;		\/* auxilliary data *\/$/;"	m
+aux_data	ncview.defines.h	/^	void	*aux_data;	\/* For specific datafile implementations *\/$/;"	m
+axisFont	SciPlotP.h	/^	int		axisFont;$/;"	m
+backbitmap_bits	ncview.bitmaps.h	/^static unsigned char backbitmap_bits[] = {$/;"	v
+backbitmap_height	ncview.bitmaps.h	48;"	d
+backbitmap_width	ncview.bitmaps.h	47;"	d
+backbitmap_x_hot	ncview.bitmaps.h	49;"	d
+backbitmap_y_hot	ncview.bitmaps.h	50;"	d
+beep	view.c	/^beep()$/;"	f
+beep_on_restart	ncview.defines.h	/^		beep_on_restart,$/;"	m
+blowup	ncview.defines.h	/^		blowup,$/;"	m
+blowup_default_size	ncview.defines.h	/^		blowup_default_size,$/;"	m
+blowup_type	ncview.defines.h	/^	int	blowup_type;	\/* can be BLOWUP_REPLICATE or BLOWUP_BILINEAR *\/$/;"	m
+calc_dim_minmaxes	util.c	/^calc_dim_minmaxes( void )$/;"	f
+calc_scale	do_print.c	/^calc_scale( float *scale, size_t x, size_t y )$/;"	f	file:
+calc_scale	do_print.orig.c	/^calc_scale( float *scale, size_t x, size_t y )$/;"	f	file:
+calculate_blowup	view.c	/^calculate_blowup( View *view, NCVar *var )$/;"	f	file:
+calendar	ncview.defines.h	/^		*calendar;	\/* This OVERRIDES any 'calendar' attribute in the data file *\/$/;"	m
+calendar	ncview.defines.h	/^	char	*calendar;	\/* ONLY applicable if time_std==TSTD_UDUNITS; can be any CF-1.0 value. Defaults to "standard" *\/$/;"	m
+change_view	view.c	/^change_view( int delta, int interpretation )$/;"	f
+check	ncview.c	/^check( int val, int min, int max )$/;"	f
+check_ranges	util.c	/^check_ranges( NCVar *var )$/;"	f
+circ	SciPlotP.h	/^		} circ;$/;"	m	union:_SciPlotItem::<anonymous>
+clip_f	util.c	/^clip_f( float *data, float min, float max )$/;"	f
+close_enough	util.c	/^close_enough( float data, float fill )$/;"	f
+cmap	SciPlotP.h	/^	Colormap	cmap;$/;"	m
+cmap_3gauss	colormaps_3gauss.h	/^static int cmap_3gauss[] = {$/;"	v
+cmap_3saw	colormaps_3saw.h	/^static int cmap_3saw[] = {$/;"	v
+cmap_bw	colormaps_bw.h	/^static int cmap_bw[] = {$/;"	v
+cmap_default	colormaps_default.h	/^static int cmap_default[] = {$/;"	v
+cmap_detail	colormaps_detail.h	/^static int cmap_detail[] = {$/;"	v
+cmap_extrema	colormaps_extrema.h	/^static int cmap_extrema[] = {$/;"	v
+cmap_helix	colormaps_helix.h	/^static int cmap_helix[] = {$/;"	v
+cmap_helix2	colormaps_helix2.h	/^static int cmap_helix2[] = {$/;"	v
+cmap_hotres	colormaps_hotres.h	/^static int cmap_hotres[] = {$/;"	v
+cmap_ssec	colormaps_ssec.h	/^static int cmap_ssec[] = {$/;"	v
+color	SciPlotP.h	/^			short color;$/;"	m	struct:_SciPlotItem::<anonymous>::<anonymous>
+color_by_ndims	ncview.defines.h	/^		color_by_ndims,	\/* if 1, then button is color coded by # of effective dims *\/$/;"	m
+colors	SciPlotP.h	/^	Pixel		*colors;$/;"	m
+command	SciPlot.c	/^	char *command;$/;"	m	file:
+connect	configure	/^connect ();$/;"	f
+contract_data	util.c	/^contract_data( float *small_data, View *v, float fill_value )$/;"	f
+copy_info_to_identical_dims	util.c	/^copy_info_to_identical_dims( NCVar *vsrc, NCDim *dsrc, size_t dim_len )$/;"	f
+core	SciPlotP.h	/^	CorePart	core;$/;"	m	struct:_SciPlotRec
+core_class	SciPlotP.h	/^	CoreClassPart		core_class;$/;"	m	struct:_SciPlotClassRec
+count	SciPlotP.h	/^			short count;$/;"	m	struct:_SciPlotItem::<anonymous>::<anonymous>
+create_default_colormap	ncview.c	/^create_default_colormap()$/;"	f
+dashGC	SciPlotP.h	/^	GC		dashGC;$/;"	m
+data	SciPlotP.h	/^	realpair	*data;$/;"	m
+data	ncview.defines.h	/^	void	*data;		\/* The actual 2-D data to colorcontour *\/$/;"	m
+data_has_mv	util.c	/^data_has_mv( float *data, size_t n, float fill_value )$/;"	f
+data_max	ncview.defines.h	/^	float	data_min, data_max; \/* for a specific variable in the file *\/$/;"	m
+data_min	ncview.defines.h	/^	float	data_min, data_max; \/* for a specific variable in the file *\/$/;"	m
+data_status	ncview.defines.h	/^	int	data_status;	\/* Either valid, invalid, or edited (changed) *\/$/;"	m
+data_to_pixels	util.c	/^data_to_pixels( View *v )$/;"	f
+dateify	utCalendar_cal.c	/^static void dateify( int year, int month, int day, int hour, int minute, $/;"	f	file:
+days_per_month_360	utCalendar_cal.c	/^static long days_per_month_360[]      = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 };$/;"	v	file:
+days_per_month_reg_year	utCalendar_cal.c	/^static long days_per_month_reg_year[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };$/;"	v	file:
+debug	ncview.defines.h	/^		debug,$/;"	m
+defaultGC	SciPlotP.h	/^	GC		defaultGC;$/;"	m
+delta_step	ncview.defines.h	/^		delta_step,	\/* if > 0, percent of total frames to step when pressing the $/;"	m
+determine_file_type	file.c	/^determine_file_type( Stringlist *input_files )$/;"	f
+determine_overlay_base_dir	overlay.c	/^determine_overlay_base_dir( char *overlay_base_dir, int n )$/;"	f
+determine_scan_axes	view.c	/^determine_scan_axes( View *view, NCVar *var, View *old_view )$/;"	f	file:
+dim	ncview.defines.h	/^	NCDim	**dim;				\/* An array of 'n_dim' pointers to$/;"	m
+display_type	ncview.defines.h	/^		display_type;	\/* This uses std 'X' defines; PseudoColor, DirectColor, etc *\/$/;"	m
+dnet_ntoa	configure	/^dnet_ntoa ();$/;"	f
+do_backwards	do_buttons.c	/^do_backwards( int modifier )$/;"	f
+do_blowup	do_buttons.c	/^do_blowup( int modifier )$/;"	f
+do_blowup_type	do_buttons.c	/^do_blowup_type( int modifier )$/;"	f
+do_colormap_sel	do_buttons.c	/^do_colormap_sel( int modifier )$/;"	f
+do_data_edit	do_buttons.c	/^do_data_edit( int modifier )$/;"	f
+do_dimset	do_buttons.c	/^do_dimset( int modifier )$/;"	f
+do_fastforward	do_buttons.c	/^do_fastforward( int modifier )$/;"	f
+do_forward	do_buttons.c	/^do_forward( int modifier )$/;"	f
+do_info	do_buttons.c	/^do_info( int modifier )$/;"	f
+do_invert_colormap	do_buttons.c	/^do_invert_colormap( int modifier )$/;"	f
+do_invert_physical	do_buttons.c	/^do_invert_physical( int modifier )$/;"	f
+do_options	do_buttons.c	/^do_options( int modifier )$/;"	f
+do_outline	do_print.c	/^do_outline( FILE *f, size_t x, size_t y )$/;"	f	file:
+do_outline	do_print.orig.c	/^do_outline( FILE *f, size_t x, size_t y )$/;"	f	file:
+do_overlay	overlay.c	/^do_overlay( int n, char *custom_filename, int suppress_screen_changes )$/;"	f
+do_overlay_inner	overlay.c	/^do_overlay_inner( View *v, float *data, long nvals, int suppress_screen_changes )$/;"	f
+do_pause	do_buttons.c	/^do_pause( int modifier )$/;"	f
+do_print	do_print.c	/^do_print( void )$/;"	f
+do_print	do_print.orig.c	/^do_print()$/;"	f
+do_quit	do_buttons.c	/^do_quit( int modifier )$/;"	f
+do_range	do_buttons.c	/^do_range( int modifier )$/;"	f
+do_restart	do_buttons.c	/^do_restart( int modifier )$/;"	f
+do_rewind	do_buttons.c	/^do_rewind( int modifier )$/;"	f
+do_set_maximum	do_buttons.c	/^do_set_maximum( int modifier )$/;"	f
+do_set_minimum	do_buttons.c	/^do_set_minimum( int modifier )$/;"	f
+do_transform	do_buttons.c	/^do_transform( int modifier )$/;"	f
+doit	ncview.defines.h	/^	int	doit;$/;"	m
+dots	SciPlot.c	/^static char dots[]={2,1,1},widedots[]={2,1,4};$/;"	v	file:
+draw	SciPlotP.h	/^	Boolean		draw,used;$/;"	m
+draw_file_info	view.c	/^draw_file_info( NCVar *var )$/;"	f	file:
+drawlist	SciPlotP.h	/^	SciPlotItem	*drawlist;$/;"	m
+dummy	SciPlotP.h	/^	int	dummy;	\/* keep compiler happy with dummy field *\/$/;"	m
+dump_frames	ncview.defines.h	/^		dump_frames,$/;"	m
+dump_stringlist	util.c	/^dump_stringlist( Stringlist *s )$/;"	f
+effective_dimensionality	ncview.defines.h	/^	int  	effective_dimensionality;	\/* # of entries in 'size' array > 1 *\/$/;"	m
+ep_time_to_mdyhms	epic_time.c	/^ep_time_to_mdyhms(time, mon, day, yr, hour, min, sec)$/;"	f
+epic_calc_tgran	epic_time.c	/^epic_calc_tgran( int fileid, NCDim *d )$/;"	f
+epic_fmt_time	epic_time.c	/^epic_fmt_time( char *temp_string, double new_dimval, NCDim *dim )$/;"	f
+epic_istime0	epic_time.c	/^epic_istime0( int fileid, NCVar *v, NCDim *d )$/;"	f
+equivalent_FDBs	util.c	/^equivalent_FDBs( NCVar *v1, NCVar *v2 )$/;"	f
+expand_data	util.c	/^expand_data( float *big_data, View *v )$/;"	f
+ffbitmap_bits	ncview.bitmaps.h	/^static unsigned char ffbitmap_bits[] = {$/;"	v
+ffbitmap_height	ncview.bitmaps.h	81;"	d
+ffbitmap_width	ncview.bitmaps.h	80;"	d
+ffbitmap_x_hot	ncview.bitmaps.h	82;"	d
+ffbitmap_y_hot	ncview.bitmaps.h	83;"	d
+fi_close	file.c	/^fi_close( int fileid )$/;"	f
+fi_confirm	file.c	/^fi_confirm( char *name )$/;"	f
+fi_dim_calendar	file.c	/^fi_dim_calendar( int fileid, char *dim_name )$/;"	f
+fi_dim_id_to_name	file.c	/^fi_dim_id_to_name( int fileid, char *var_name, int dim_id )$/;"	f
+fi_dim_longname	file.c	/^fi_dim_longname( int fileid, char *dim_name )$/;"	f
+fi_dim_name_to_id	file.c	/^fi_dim_name_to_id( int fileid, char *var_name, char *dim_name )$/;"	f
+fi_dim_units	file.c	/^fi_dim_units( int fileid, char *dim_name )$/;"	f
+fi_dim_value	file.c	/^fi_dim_value( NCVar *var, int dim_id, size_t virt_place, double *return_val_double, $/;"	f
+fi_dim_value_convert	file.c	/^void fi_dim_value_convert( double *dimval, FDBlist *file, NCVar *var, NCDim *d )$/;"	f
+fi_fill_aux_data	file.c	/^fi_fill_aux_data( int id, char *var_name, FDBlist *fdb )$/;"	f
+fi_fill_value	file.c	/^fi_fill_value( NCVar *var, float *fill_value )$/;"	f
+fi_get_data	file.c	/^fi_get_data( NCVar *var, size_t *virt_start_pos, size_t *count, void *data )$/;"	f
+fi_get_data_iterate	file.c	/^fi_get_data_iterate( NCVar *var, size_t *virt_start_pos, size_t *count, void *data )$/;"	f
+fi_has_dim_values	file.c	/^fi_has_dim_values( int fileid, char *dim_name )$/;"	f
+fi_initialize	file.c	/^fi_initialize( char *name, int nfiles )$/;"	f
+fi_list_vars	file.c	/^fi_list_vars( int fileid )$/;"	f
+fi_long_var_name	file.c	/^fi_long_var_name( int fileid, char *var_name )$/;"	f
+fi_n_dims	file.c	/^fi_n_dims( int id, char *var_name )$/;"	f
+fi_recdim_id	file.c	/^fi_recdim_id( int fileid )$/;"	f
+fi_scannable_dims	file.c	/^fi_scannable_dims( int fileid, char *var_name )$/;"	f
+fi_title	file.c	/^fi_title( int fileid )$/;"	f
+fi_var_size	file.c	/^fi_var_size( int fileid, char *var_name )$/;"	f
+fi_var_units	file.c	/^fi_var_units( int fileid, char *var_name )$/;"	f
+fi_writable	file.c	/^fi_writable( char *name )$/;"	f
+file_type	file.c	/^static int   file_type;$/;"	v	file:
+filename	ncview.defines.h	/^	char	*filename;$/;"	m
+fill_dim_structs	util.c	/^fill_dim_structs( NCVar *v )$/;"	f
+fill_value	ncview.defines.h	/^	float	fill_value;			\/* Any data with this special$/;"	m
+fill_view_data	view.c	/^fill_view_data( View *v )$/;"	f	file:
+first_file	ncview.defines.h	/^	FDBlist	*first_file, *last_file;	\/* What files this variable lives in *\/$/;"	m
+flag	SciPlotP.h	/^	int		flag;$/;"	m
+flip_if_inverted	view.c	/^flip_if_inverted( View *view )$/;"	f	file:
+fmt_time	util.c	/^void fmt_time( char *temp_string, double new_dimval, NCDim *dim, int include_granularity )$/;"	f
+font	SciPlotP.h	/^			short font;$/;"	m	struct:_SciPlotItem::<anonymous>::<anonymous>
+font	SciPlotP.h	/^	XFontStruct	*font;$/;"	m
+font_desc_table	SciPlot.c	/^static SciPlotFontDesc font_desc_table[]={$/;"	v	file:
+font_name	ncview.defines.h	/^	char	font_name[132],			\/* Postscript name *\/$/;"	m
+font_size	ncview.defines.h	/^	int	font_size,$/;"	m
+fonts	SciPlotP.h	/^	SciPlotFont	*fonts;$/;"	m
+forwardbitmap_bits	ncview.bitmaps.h	/^static unsigned char forwardbitmap_bits[] = {$/;"	v
+forwardbitmap_height	ncview.bitmaps.h	70;"	d
+forwardbitmap_width	ncview.bitmaps.h	69;"	d
+forwardbitmap_x_hot	ncview.bitmaps.h	71;"	d
+forwardbitmap_y_hot	ncview.bitmaps.h	72;"	d
+frame	ncview.defines.h	/^	ncv_pixel *frame;	\/* Actual store of the frames *\/$/;"	m
+frame_delay	ncview.defines.h	/^	float	frame_delay;	\/* Normalied to be between 0.0 and 1.0 *\/$/;"	m
+frame_valid	ncview.defines.h	/^	int	*frame_valid;	\/* Is this particular frame valid? *\/$/;"	m
+framestore	ncview.c	/^FrameStore framestore;$/;"	v
+gen_overlay	overlay.c	/^gen_overlay( View *v, char *overlay_fname )$/;"	f
+gen_overlay_internal	overlay.c	/^gen_overlay_internal( View *v, float *data, long nvals )$/;"	f
+gen_xform	overlay.c	/^gen_xform( float value, int n, float *dimvals )$/;"	f
+get_att_util	file_netcdf.c	/^int get_att_util( int id, int varid, char *var_name, char *att_name, int expected_len, void *value )$/;"	f
+get_cmaps_from_dir	ncview.c	/^get_cmaps_from_dir( char *dir_name )$/;"	f
+get_min_max_onestep	util.c	/^get_min_max_onestep( NCVar *var, size_t n_other, size_t tstep, float *data, $/;"	f	file:
+get_number_format	SciPlot.c	/^get_number_format( char *numberformat, int precision, real val )$/;"	f
+get_var	util.c	/^get_var( char *var_name )$/;"	f
+gethostbyname	configure	/^gethostbyname ();$/;"	f
+global_id	ncview.defines.h	/^	int	global_id;	\/* Used internally, goes from 1..total number of dims we know about *\/$/;"	m
+global_max	ncview.defines.h	/^	float	global_min, global_max,		\/* These are diffferent from the *\/$/;"	m
+global_min	ncview.defines.h	/^	float	global_min, global_max,		\/* These are diffferent from the *\/$/;"	m
+h	SciPlotP.h	/^			real x,y,w,h;$/;"	m	struct:_SciPlotItem::<anonymous>::<anonymous>
+handle_time_dim	util.c	/^handle_time_dim( int fileid, NCVar *v, int dimid )$/;"	f	file:
+have_calc_minmax	ncview.defines.h	/^	int	have_calc_minmax;  \/* 0 initially, 1 after min & max have been calculated *\/$/;"	m
+have_set_range	ncview.defines.h	/^	int	have_set_range;			\/* boolean -- have we set the$/;"	m
+header_font_size	ncview.defines.h	/^		header_font_size;		\/* In points *\/$/;"	m
+id	SciPlotP.h	/^	int		id;$/;"	m
+id	ncview.defines.h	/^	int	id;		\/* internally used ID number *\/$/;"	m
+include_axis_labels	ncview.defines.h	/^		include_axis_labels,$/;"	m
+include_extra_info	ncview.defines.h	/^		include_extra_info,$/;"	m
+include_id	ncview.defines.h	/^		include_id,$/;"	m
+include_outline	ncview.defines.h	/^		include_outline, $/;"	m
+include_title	ncview.defines.h	/^		include_title,$/;"	m
+index	ncview.defines.h	/^	int	index;		\/* initialized to position in list *\/$/;"	m
+individually_allocated	SciPlotP.h	/^	short individually_allocated;$/;"	m	struct:_SciPlotItem
+init_cmap_from_data	ncview.c	/^init_cmap_from_data( char *colormap_name, int *data )$/;"	f
+init_cmap_from_file	ncview.c	/^init_cmap_from_file( char *dir_name, char *file_name )$/;"	f
+init_cmaps_from_data	ncview.c	/^init_cmaps_from_data()$/;"	f
+init_min_max	util.c	/^init_min_max( NCVar *var )$/;"	f
+init_saveframes	view.c	/^init_saveframes()$/;"	f
+init_view	view.c	/^init_view( View **view, NCVar *var )$/;"	f	file:
+initial_determine_scan_axes	view.c	/^initial_determine_scan_axes( View *view, NCVar *var )$/;"	f	file:
+initial_set_scan_place	view.c	/^initial_set_scan_place( View *view, NCVar *var )$/;"	f	file:
+initialize_colormaps	ncview.c	/^initialize_colormaps()$/;"	f
+initialize_display_interface	ncview.c	/^initialize_display_interface()$/;"	f
+initialize_file_interface	ncview.c	/^initialize_file_interface( Stringlist *input_files )$/;"	f
+initialize_misc	ncview.c	/^initialize_misc()$/;"	f
+invalidate_all_saveframes	view.c	/^invalidate_all_saveframes()$/;"	f
+invalidate_variable	view.c	/^invalidate_variable( NCVar *var )$/;"	f	file:
+invert_colors	ncview.defines.h	/^		invert_colors,$/;"	m
+invert_physical	ncview.defines.h	/^	int	invert_physical,$/;"	m
+is_lat	ncview.defines.h	/^	int	is_lat, is_lon; \/* Just a guess if these are lat\/lon. Used to put on coastlines automatically *\/$/;"	m
+is_lon	ncview.defines.h	/^	int	is_lat, is_lon; \/* Just a guess if these are lat\/lon. Used to put on coastlines automatically *\/$/;"	m
+is_scannable	util.c	/^is_scannable( NCVar *v, int i )$/;"	f
+is_unique	udu.c	/^is_unique( char *units )$/;"	f	file:
+is_virtual	ncview.defines.h	/^	int	is_virtual;			\/* Boolean -- true if this var lives$/;"	m
+kind	SciPlotP.h	/^	} kind;$/;"	m	struct:_SciPlotItem
+labelFont	SciPlotP.h	/^	int		labelFont;$/;"	m
+label_dimensions	view.c	/^label_dimensions( View *view )$/;"	f	file:
+last_file	ncview.defines.h	/^	FDBlist	*first_file, *last_file;	\/* What files this variable lives in *\/$/;"	m
+leading	ncview.defines.h	/^		leading,$/;"	m
+legend	SciPlotP.h	/^	char		*legend;$/;"	m
+length	SciPlotP.h	/^			short length;$/;"	m	struct:_SciPlotItem::<anonymous>::<anonymous>
+limit_string	util.c	/^limit_string( char *s )$/;"	f
+line	SciPlotP.h	/^		} line;$/;"	m	union:_SciPlotItem::<anonymous>
+listsel_max	ncview.defines.h	/^		listsel_max,	\/* if # of vars is more than this, auto switch from VARSEL_LIST to VARSEL_MENU *\/$/;"	m
+lockout_view_changes	view.c	/^static int 	lockout_view_changes = FALSE;$/;"	v	file:
+long_name	ncview.defines.h	/^	char	*name, *long_name, *units;$/;"	m
+main	geteuid.c	/^main()$/;"	f
+main	ncview.c	/^main( int argc, char **argv )$/;"	f
+max	SciPlotP.h	/^	realpair	min,max;$/;"	m
+max	ncview.defines.h	/^	float	min, max, *values;$/;"	m
+maxsize_height	ncview.defines.h	/^		maxsize_height,	\/* in pixels *\/$/;"	m
+maxsize_pct	ncview.defines.h	/^		maxsize_pct,	\/* -1 if a width\/height pair specified instead *\/$/;"	m
+maxsize_width	ncview.defines.h	/^		maxsize_width,	\/* in pixels *\/$/;"	m
+min	SciPlotP.h	/^	realpair	min,max;$/;"	m
+min	ncview.defines.h	/^	float	min, max, *values;$/;"	m
+min_max_method	ncview.defines.h	/^		min_max_method,$/;"	m
+month_name	util.c	/^static  char    *month_name[12] = { "Jan", "Feb", "Mar", "Apr", "May", "Jun",$/;"	v	file:
+months_calc_tgran	util.c	/^months_calc_tgran( int fileid, NCDim *d )$/;"	f	file:
+mouse_xy_to_data_xy	view.c	/^mouse_xy_to_data_xy( int mouse_x, int mouse_y, int blowup, size_t *data_x, size_t *data_y )$/;"	f
+my_current_overlay	overlay.c	/^static int	my_current_overlay;$/;"	v	file:
+my_nint	SciPlot.c	/^my_nint( double d )$/;"	f
+my_overlay_names	overlay.c	/^char *my_overlay_names[] = { "None",  $/;"	v
+n_colors	ncview.defines.h	/^		n_colors,$/;"	m
+n_dims	ncview.defines.h	/^	int	n_dims;				\/* how many dimensions this var has *\/$/;"	m
+n_overlay_coasts_p08deg	overlay_coasts_p08deg.h	/^static long n_overlay_coasts_p08deg = 249834;$/;"	v
+n_overlay_coasts_p8deg	overlay_coasts_p8deg.h	/^static long n_overlay_coasts_p8deg = 11536;$/;"	v
+n_overlay_usa	overlay_usa.h	/^static long n_overlay_usa = 152124;$/;"	v
+n_strings_in_list	util.c	/^n_strings_in_list( Stringlist *s )$/;"	f
+n_vars_in_list	util.c	/^n_vars_in_list( NCVar *v )$/;"	f
+name	ncview.defines.h	/^	char	*name, *long_name, *units;$/;"	m
+name	ncview.defines.h	/^	char	*name;$/;"	m
+name	udu.c	/^	char	*name;$/;"	m	file:
+nc_open	configure	/^nc_open ();$/;"	f
+nc_type_to_string	file_netcdf.c	/^char *nc_type_to_string( nc_type type )$/;"	f
+ncv_pixel	ncview.defines.h	/^typedef unsigned char ncv_pixel;\/* If you change this, make sure to change$/;"	t
+ncview_base_dir	ncview.defines.h	/^	char	*ncview_base_dir,$/;"	m
+netcdf_att_id	file_netcdf.c	/^int netcdf_att_id( int fileid, int varid, char *name )$/;"	f
+netcdf_att_string	file_netcdf.c	/^char *netcdf_att_string( int fileid, char *var_name ) $/;"	f
+netcdf_dim_calendar	file_netcdf.c	/^char *netcdf_dim_calendar( int fileid, char *dim_name )$/;"	f
+netcdf_dim_id_to_name	file_netcdf.c	/^char *netcdf_dim_id_to_name( int fileid, char *var_name, int dim_id )$/;"	f
+netcdf_dim_longname	file_netcdf.c	/^char *netcdf_dim_longname( int fileid, char *dim_name )$/;"	f
+netcdf_dim_name_to_id	file_netcdf.c	/^int netcdf_dim_name_to_id( int fileid, char *var_name, char *dim_name )$/;"	f
+netcdf_dim_size	file_netcdf.c	/^size_t netcdf_dim_size( fileid, dimid )$/;"	f
+netcdf_dim_units	file_netcdf.c	/^char *netcdf_dim_units( int fileid, char *dim_name )$/;"	f
+netcdf_dim_value	file_netcdf.c	/^nc_type netcdf_dim_value( int fileid, char *dim_name, size_t place, $/;"	f
+netcdf_dimvar_bounds_id	file_netcdf.c	/^int netcdf_dimvar_bounds_id( int fileid, char *dim_name, int *nvertices )$/;"	f
+netcdf_dimvar_id	file_netcdf.c	/^int netcdf_dimvar_id( int fileid, char *dim_name )$/;"	f
+netcdf_fi_close	file_netcdf.c	/^void netcdf_fi_close( int fileid )$/;"	f
+netcdf_fi_confirm	file_netcdf.c	/^int netcdf_fi_confirm( char *name )$/;"	f
+netcdf_fi_get_data	file_netcdf.c	/^void netcdf_fi_get_data( int fileid, char *var_name, size_t *start_pos, $/;"	f
+netcdf_fi_initialize	file_netcdf.c	/^int netcdf_fi_initialize( char *name )$/;"	f
+netcdf_fi_list_vars	file_netcdf.c	/^Stringlist *netcdf_fi_list_vars( int fileid )$/;"	f
+netcdf_fi_n_dims	file_netcdf.c	/^int netcdf_fi_n_dims( int fileid, char *var_name )$/;"	f
+netcdf_fi_recdim_id	file_netcdf.c	/^int netcdf_fi_recdim_id( int fileid )$/;"	f
+netcdf_fi_var_size	file_netcdf.c	/^size_t * netcdf_fi_var_size( int fileid, char *var_name )$/;"	f
+netcdf_fi_writable	file_netcdf.c	/^int netcdf_fi_writable( char *name )$/;"	f
+netcdf_fill_aux_data	file_netcdf.c	/^void netcdf_fill_aux_data( int id, char *var_name, FDBlist *fdb )$/;"	f
+netcdf_fill_value	file_netcdf.c	/^void netcdf_fill_value( int file_id, char *var_name, float *v, NetCDFOptions *aux_data )$/;"	f
+netcdf_global_att_string	file_netcdf.c	/^char *netcdf_global_att_string( int fileid )$/;"	f
+netcdf_has_dim_values	file_netcdf.c	/^int netcdf_has_dim_values( int fileid, char *dim_name )$/;"	f
+netcdf_long_var_name	file_netcdf.c	/^char *netcdf_long_var_name( int fileid, char *var_name )$/;"	f
+netcdf_max_option_set	file_netcdf.c	/^int netcdf_max_option_set( NCVar *var, float *ret_max )$/;"	f
+netcdf_min_max_option_set	file_netcdf.c	/^int netcdf_min_max_option_set( NCVar *var, float *ret_min, float *ret_max )$/;"	f
+netcdf_min_option_set	file_netcdf.c	/^int netcdf_min_option_set( NCVar *var, float *ret_min )$/;"	f
+netcdf_n_dims	file_netcdf.c	/^int netcdf_n_dims( int cdfid, char *varname )$/;"	f
+netcdf_scannable_dims	file_netcdf.c	/^Stringlist *netcdf_scannable_dims( int fileid, char *var_name )$/;"	f
+netcdf_title	file_netcdf.c	/^char * netcdf_title( int fileid )$/;"	f
+netcdf_var_units	file_netcdf.c	/^char *netcdf_var_units( int fileid, char *var_name )$/;"	f
+netcdf_varindex_to_name	file_netcdf.c	/^char *netcdf_varindex_to_name( int cdfid, int index )$/;"	f
+netcdf_vartype	file_netcdf.c	/^int netcdf_vartype( int cdfid, char *varname )$/;"	f
+new_fdblist	util.c	/^new_fdblist( FDBlist **el )$/;"	f
+new_netcdf	util.c	/^new_netcdf( NetCDFOptions **n )$/;"	f
+new_stringlist	util.c	/^new_stringlist( Stringlist **el )$/;"	f
+new_variable	util.c	/^new_variable( NCVar **el )$/;"	f
+next	SciPlotP.h	/^	struct _SciPlotItem *next;$/;"	m	struct:_SciPlotItem
+next	ncview.defines.h	/^	void	*next, *prev;			\/* for global list of variables *\/$/;"	m
+next	ncview.defines.h	/^	void	*next, *prev;$/;"	m
+next	udu.c	/^	void	*next;$/;"	m	file:
+no_1d_vars	ncview.defines.h	/^		no_1d_vars,$/;"	m
+no_autoflip	ncview.defines.h	/^		no_autoflip,$/;"	m
+no_char_dims	ncview.defines.h	/^		no_char_dims,$/;"	m
+num_colors	SciPlotP.h	/^	int		num_colors;$/;"	m
+num_drawlist	SciPlotP.h	/^	int		num_drawlist;$/;"	m
+num_fonts	SciPlotP.h	/^	int		num_fonts;$/;"	m
+num_plotlist	SciPlotP.h	/^	int		num_plotlist;$/;"	m
+number	SciPlotP.h	/^	int		number;$/;"	m
+offset	SciPlot.c	37;"	d	file:
+options	ncview.c	/^Options	  options;$/;"	v
+out_file_name	ncview.defines.h	/^		out_file_name[1024];$/;"	m
+output_device	ncview.defines.h	/^	int	output_device,$/;"	m
+overlay	ncview.defines.h	/^	OverlayOptions *overlay;$/;"	m
+overlay	ncview.defines.h	/^	int	*overlay;$/;"	m
+overlay_coasts_p08deg	overlay_coasts_p08deg.h	/^static float overlay_coasts_p08deg[] = {$/;"	v
+overlay_coasts_p8deg	overlay_coasts_p8deg.h	/^static float overlay_coasts_p8deg[] = {$/;"	v
+overlay_current	overlay.c	/^overlay_current( void )$/;"	f
+overlay_custom_n	overlay.c	/^overlay_custom_n( void )$/;"	f
+overlay_init	overlay.c	/^overlay_init()$/;"	f
+overlay_n_overlays	overlay.c	/^overlay_n_overlays( void )$/;"	f
+overlay_names	overlay.c	/^overlay_names( void )$/;"	f
+overlay_usa	overlay_usa.h	/^static float overlay_usa[] = {$/;"	v
+page_height	ncview.defines.h	/^	float	page_width, page_height,		\/* In inches *\/$/;"	m
+page_lower_y_margin	ncview.defines.h	/^		page_lower_y_margin, ppi;		\/* Points per inch *\/$/;"	m
+page_upper_y_margin	ncview.defines.h	/^		page_x_margin, page_upper_y_margin,	\/* In inches *\/$/;"	m
+page_width	ncview.defines.h	/^	float	page_width, page_height,		\/* In inches *\/$/;"	m
+page_x_margin	ncview.defines.h	/^		page_x_margin, page_upper_y_margin,	\/* In inches *\/$/;"	m
+parse_options	ncview.c	/^parse_options( int argc, char *argv[] )$/;"	f
+pausebitmap_bits	ncview.bitmaps.h	/^static unsigned char pausebitmap_bits[] = {$/;"	v
+pausebitmap_height	ncview.bitmaps.h	59;"	d
+pausebitmap_width	ncview.bitmaps.h	58;"	d
+pausebitmap_x_hot	ncview.bitmaps.h	60;"	d
+pausebitmap_y_hot	ncview.bitmaps.h	61;"	d
+pixel_transform	ncview.c	/^ncv_pixel *pixel_transform;$/;"	v
+pixels	ncview.defines.h	/^	unsigned char *pixels;	\/* Scaled, replicated, byte array version of data *\/$/;"	m
+plot	SciPlotP.h	/^	SciPlotPart	plot;$/;"	m	struct:_SciPlotRec
+plotTitle	SciPlotP.h	/^	char		*plotTitle;$/;"	m
+plot_XY	view.c	/^plot_XY()$/;"	f
+plot_XY_axis	ncview.defines.h	/^	int	plot_XY_axis,	\/* Which axis to plot along in XY plots *\/$/;"	m
+plot_XY_dim	view.c	/^static NCDim *plot_XY_dim[MAX_PLOT_XY];$/;"	v	file:
+plot_XY_nlines	ncview.defines.h	/^		plot_XY_nlines;	\/* # of XY lines for this variable on current plot *\/$/;"	m
+plot_XY_position	ncview.defines.h	/^	size_t	plot_XY_position[MAX_LINES_PER_PLOT][10];$/;"	m
+plot_XY_sc	view.c	/^plot_XY_sc( size_t *start, size_t *count )$/;"	f	file:
+plot_XY_xvals	view.c	/^static double *plot_XY_xvals = NULL, *plot_XY_yvals = NULL;$/;"	v	file:
+plot_XY_yvals	view.c	/^static double *plot_XY_xvals = NULL, *plot_XY_yvals = NULL;$/;"	v	file:
+plot_class	SciPlotP.h	/^	SciPlotClassPart	plot_class;$/;"	m	struct:_SciPlotClassRec
+plotlist	SciPlotP.h	/^	SciPlotList	*plotlist;$/;"	m
+poly	SciPlotP.h	/^		} poly;$/;"	m	union:_SciPlotItem::<anonymous>
+powi	SciPlotP.h	43;"	d
+ppi	ncview.defines.h	/^		page_lower_y_margin, ppi;		\/* Points per inch *\/$/;"	m
+ppm_writeppm	configure	/^ppm_writeppm ();$/;"	f
+prev	ncview.defines.h	/^	void	*next, *prev;			\/* for global list of variables *\/$/;"	m
+prev	ncview.defines.h	/^	void	*next, *prev;$/;"	m
+primitive	SciPlotP.h	/^	XmPrimitivePart	primitive;$/;"	m	struct:_SciPlotRec
+primitive_class	SciPlotP.h	/^	XmPrimitiveClassPart	primitive_class;$/;"	m	struct:_SciPlotClassRec
+print_copying	ncview.c	/^print_copying()$/;"	f
+print_disclaimer	ncview.c	/^print_disclaimer()$/;"	f
+print_header	do_print.c	/^print_header( FILE *f, float scale, size_t x, size_t y, size_t top_of_image )$/;"	f	file:
+print_header	do_print.orig.c	/^print_header( FILE *f, float scale, size_t x, size_t y, size_t top_of_image )$/;"	f	file:
+print_init	do_print.c	/^print_init( void )$/;"	f
+print_init	do_print.orig.c	/^print_init()$/;"	f
+print_no_warranty	ncview.c	/^print_no_warranty()$/;"	f
+print_other_info	do_print.c	/^print_other_info( FILE *outf, float output_scale, size_t x_size, size_t y_size, $/;"	f	file:
+print_other_info	do_print.orig.c	/^print_other_info( FILE *outf, float output_scale, size_t x_size, size_t y_size, $/;"	f	file:
+printopts	do_print.c	/^static PrintOptions printopts;$/;"	v	file:
+printopts	do_print.orig.c	/^static PrintOptions printopts;$/;"	v	file:
+private_colormap	ncview.defines.h	/^		private_colormap,$/;"	m
+process_user_input	ncview.c	/^process_user_input()$/;"	f
+prolog	SciPlot.c	/^	char *prolog;$/;"	m	file:
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+psc	SciPlot.c	/^static PScommands psc[]={$/;"	v	file:
+pt	SciPlotP.h	/^		} pt;$/;"	m	union:_SciPlotItem::<anonymous>
+quit_app	ncview.c	/^quit_app()$/;"	f
+r	SciPlotP.h	/^			real x,y,r;$/;"	m	struct:_SciPlotItem::<anonymous>::<anonymous>
+r	qsort.c	/^ArrayToSort r;$/;"	v
+re_determine_scan_axes	view.c	/^re_determine_scan_axes( View *new_view, NCVar *new_var, View *old_view )$/;"	f	file:
+re_set_scan_place	view.c	/^re_set_scan_place( View *new_view, NCVar *new_var, View *old_view )$/;"	f	file:
+real	SciPlot.h	/^typedef float real;$/;"	t
+realpair	SciPlot.h	/^} realpair;$/;"	t
+recdim_units	ncview.defines.h	/^	char	*recdim_units;$/;"	m
+rect	SciPlotP.h	/^		} rect;$/;"	m	union:_SciPlotItem::<anonymous>
+redraw_ccontour	view.c	/^redraw_ccontour()$/;"	f
+redraw_dimension_info	view.c	/^redraw_dimension_info()$/;"	f
+remove	configure	/^remove ();$/;"	f
+resources	SciPlot.c	/^static XtResource resources[] = {$/;"	v	file:
+reversebitmap_bits	ncview.bitmaps.h	/^static unsigned char reversebitmap_bits[] = {$/;"	v
+reversebitmap_height	ncview.bitmaps.h	37;"	d
+reversebitmap_width	ncview.bitmaps.h	36;"	d
+reversebitmap_x_hot	ncview.bitmaps.h	38;"	d
+reversebitmap_y_hot	ncview.bitmaps.h	39;"	d
+safe_ncdimid	file_netcdf.c	/^int safe_ncdimid( int fileid, char *dim_name1 )$/;"	f
+save_frames	ncview.defines.h	/^	int	save_frames;	\/* If true, try to save frames in core for faster display *\/$/;"	m
+scale_factor	ncview.defines.h	/^		scale_factor,$/;"	m
+scale_factor_set	ncview.defines.h	/^		scale_factor_set,$/;"	m
+scan_axis_id	ncview.defines.h	/^		scan_axis_id;$/;"	m
+sciplotClassRec	SciPlot.c	/^SciPlotClassRec sciplotClassRec = {$/;"	v
+sciplotWidgetClass	SciPlot.c	/^WidgetClass sciplotWidgetClass = (WidgetClass)&sciplotClassRec;$/;"	v
+set_blowup_type	util.c	/^set_blowup_type( int new_type )$/;"	f
+set_buttons	view.c	/^set_buttons( int to_state )$/;"	f	file:
+set_dataedit_place	view.c	/^set_dataedit_place()$/;"	f
+set_font	do_print.c	/^set_font( FILE *outf, char *name, int size )$/;"	f	file:
+set_font	do_print.orig.c	/^set_font( FILE *outf, char *name, int size )$/;"	f	file:
+set_max_from_curdata	view.c	/^set_max_from_curdata()$/;"	f
+set_min_from_curdata	view.c	/^set_min_from_curdata()$/;"	f
+set_range_labels	view.c	/^set_range_labels( float min, float max )$/;"	f	file:
+set_scan_buttons	view.c	/^set_scan_buttons( View *local_view )$/;"	f	file:
+set_scan_place	view.c	/^set_scan_place( View *new_view, NCVar *var, View *old_view )$/;"	f	file:
+set_scan_variable	view.c	/^set_scan_variable( NCVar *var )$/;"	f
+set_scan_view	view.c	/^set_scan_view( size_t scan_place )$/;"	f
+shmat	configure	/^shmat ();$/;"	f
+show_current_dim_values	view.c	/^show_current_dim_values( View *view )$/;"	f	file:
+show_sel	ncview.defines.h	/^		show_sel,$/;"	m
+shown_proleptic_warning	utCalendar_cal.c	/^static int shown_proleptic_warning = 0;$/;"	v	file:
+shrink_method	ncview.defines.h	/^		shrink_method,$/;"	m
+size	ncview.defines.h	/^	size_t	*size;				\/* The accumulated size of$/;"	m
+size	ncview.defines.h	/^	size_t	size;$/;"	m
+skip	ncview.defines.h	/^	int	skip;		\/* Number of time entries to stride each time *\/$/;"	m
+sl_cat	util.c	/^sl_cat( Stringlist **dest, Stringlist **src )$/;"	f
+small	ncview.defines.h	/^		small,$/;"	m
+strerror	configure	/^strerror ();$/;"	f
+string	ncview.defines.h	/^	char	*string;$/;"	m
+strncmp_nocase	util.c	/^strncmp_nocase( char *s1, char *s2, size_t n )$/;"	f
+style	SciPlotP.h	/^			short style;$/;"	m	struct:_SciPlotItem::<anonymous>::<anonymous>
+t_conv	ncview.defines.h	/^		t_conv,$/;"	m
+test_only	ncview.defines.h	/^		test_only;$/;"	m
+text	SciPlotP.h	/^			char *text;$/;"	m	struct:_SciPlotItem::<anonymous>::<anonymous>
+text	SciPlotP.h	/^		} text;$/;"	m	union:_SciPlotItem::<anonymous>
+tgran	ncview.defines.h	/^	int	tgran; 		\/* time granularity; i.e., frequency of entries (daily, hourly, etc). Must be one of the TGRAN_* defined above *\/$/;"	m
+time_std	ncview.defines.h	/^	int	time_std;	\/* TSTD_UDUNITS, TSTD_EPIC_0, TSTD_MONTHS *\/$/;"	m
+timelike	ncview.defines.h	/^	int	timelike;	\/* 0 if NOT timelike, 1 if is.  If is, MUST *\/$/;"	m
+titleFont	SciPlotP.h	/^	int		titleFont;$/;"	m
+transform	ncview.defines.h	/^		transform,$/;"	m
+type	SciPlotP.h	/^	SciPlotTypeEnum	type;$/;"	m	struct:_SciPlotItem
+udu_calc_tgran	udu.c	/^int udu_calc_tgran( int fileid, NCVar *v, int dimid )$/;"	f
+udu_days	utCalendar_cal.c	/^static utUnit udu_origin_zero, udu_days;$/;"	v	file:
+udu_fmt_time	udu.c	/^void udu_fmt_time( char *temp_string, double new_dimval, NCDim *dim, int include_granularity )$/;"	f
+udu_origin_zero	utCalendar_cal.c	/^static utUnit udu_origin_zero, udu_days;$/;"	v	file:
+udu_sec_since_ref_date	utCalendar_cal.c	/^double udu_sec_since_ref_date( double val, utUnit *dataunits, int *yr0, int *mon0, $/;"	f
+udu_utinit	udu.c	/^void udu_utinit( char *path )$/;"	f
+udu_utistime	udu.c	/^int udu_utistime( char *dimname, char *units )$/;"	f
+udunits	ncview.defines.h	/^	utUnit	*udunits;	\/* only non-null if utScan worked on these units *\/$/;"	m
+uniq	udu.c	/^static UniqList *uniq = NULL;$/;"	v	file:
+units	ncview.defines.h	/^	char	*name, *long_name, *units;$/;"	m
+units_change	ncview.defines.h	/^	int	units_change;	\/* if 1, then a virtully concatenated timelike dimension has different units in different input files *\/$/;"	m
+update	SciPlotP.h	/^	Boolean		update;$/;"	m
+useage	ncview.c	/^useage()$/;"	f
+used	SciPlotP.h	/^	Boolean		draw,used;$/;"	m
+user_max	ncview.defines.h	/^	        user_min, user_max;	 	\/* min & max in the FDBs because these$/;"	m
+user_min	ncview.defines.h	/^	        user_min, user_max;	 	\/* min & max in the FDBs because these$/;"	m
+utCalendar_360	utCalendar_cal.c	/^int utCalendar_360( double val, utUnit *dataunits, int *year, int *month, int *day, int *hour, $/;"	f
+utCalendar_cal	utCalendar_cal.c	/^int utCalendar_cal( double val, utUnit *dataunits, int *year, int *month, int *day, int *hour, $/;"	f
+utCalendar_noleap	utCalendar_cal.c	/^int utCalendar_noleap( double val, utUnit *dataunits, int *year, int *month, int *day, int *hour, $/;"	f
+utCalendar_noleap_inner	utCalendar_cal.c	/^int utCalendar_noleap_inner( double val, utUnit *dataunits, int *year, int *month, int *day, int *hour, $/;"	f
+utInit	configure	/^utInit ();$/;"	f
+utInvCalendar_cal	utCalendar_cal.c	/^int utInvCalendar_cal( int year, int month, int day, int hour, int minute, $/;"	f
+utInvCalendar_noleap_inner	utCalendar_cal.c	/^int utInvCalendar_noleap_inner( int year, int month, int day, int hour, int minute,$/;"	f
+util_mean	util.c	/^util_mean( float *x, size_t n, float fill_value )$/;"	f
+util_mode	util.c	/^util_mode( float *x, size_t n, float fill_value )$/;"	f
+valid	ncview.defines.h	/^	int	valid;		\/* Is anything in the frame store valid? *\/$/;"	m
+valid_max	ncview.defines.h	/^		valid_max,$/;"	m
+valid_max_set	ncview.defines.h	/^		valid_max_set,$/;"	m
+valid_min	ncview.defines.h	/^		valid_min,$/;"	m
+valid_min_set	ncview.defines.h	/^		valid_min_set,$/;"	m
+valid_range	ncview.defines.h	/^	float	valid_range[2],$/;"	m
+valid_range_set	ncview.defines.h	/^	int	valid_range_set,$/;"	m
+valid_udunits_pkg	udu.c	/^static int	valid_udunits_pkg;$/;"	v	file:
+values	ncview.defines.h	/^	float	min, max, *values;$/;"	m
+var_place	ncview.defines.h	/^	size_t	*var_place;	\/* Where we currently are in that var's space, in that file *\/$/;"	m
+var_size	ncview.defines.h	/^	size_t	*var_size;	\/* Multi-dimensional size of variables which live in this file *\/$/;"	m
+variable	ncview.defines.h	/^	NCVar	*variable;$/;"	m
+variables	ncview.c	/^NCVar	  *variables;$/;"	v
+varsel_style	ncview.defines.h	/^		varsel_style,	\/* can be VARSEL_LIST or VARSEL_MENU *\/$/;"	m
+view	view.c	/^View  *view = NULL;$/;"	v
+view_change_blowup	view.c	/^view_change_blowup( int delta, int redraw_flag )$/;"	f
+view_change_cur_dim	view.c	/^view_change_cur_dim( char *dim_name, int modifier )$/;"	f
+view_change_dat	view.c	/^view_change_dat( size_t index, float new_val )$/;"	f
+view_change_transform	view.c	/^view_change_transform( int delta )$/;"	f
+view_data_edit	view.c	/^view_data_edit( void )$/;"	f
+view_data_edit_dump	view.c	/^view_data_edit_dump( void )$/;"	f
+view_data_edit_warn	view.c	/^view_data_edit_warn()$/;"	f	file:
+view_data_has_missing	view.c	/^view_data_has_missing( View *v )$/;"	f
+view_draw	view.c	/^view_draw( int allow_framestore_usage )$/;"	f
+view_get_scaled_size	view.c	/^view_get_scaled_size( int blowup, size_t old_nx, size_t old_ny, size_t *new_nx, size_t *new_ny )$/;"	f
+view_information	view.c	/^view_information( void )$/;"	f
+view_plot_XY_fmt_x_val	view.c	/^view_plot_XY_fmt_x_val( float val, int dimindex, char *s )$/;"	f
+view_recompute_colorbar	view.c	/^void view_recompute_colorbar( void )$/;"	f
+view_report_position	view.c	/^view_report_position( int x, int y, unsigned int button_mask )$/;"	f
+view_report_position_vals	view.c	/^view_report_position_vals( float xval, float yval, int plot_index )$/;"	f
+view_set_XY_plot_axis	view.c	/^view_set_XY_plot_axis( String label )$/;"	f
+view_set_axis	view.c	/^view_set_axis( View *local_view, int dimension, char *new_dim_name )$/;"	f	file:
+view_set_range	view.c	/^view_set_range( void )$/;"	f
+view_set_range_frame	view.c	/^view_set_range_frame( void )$/;"	f
+view_set_scan_dims	view.c	/^view_set_scan_dims( void )$/;"	f
+virt_to_actual_place	util.c	/^virt_to_actual_place( NCVar *var, size_t *virt_pl, size_t *act_pl, FDBlist **file )$/;"	f
+w	SciPlotP.h	/^			real x,y,w,h;$/;"	m	struct:_SciPlotItem::<anonymous>::<anonymous>
+want_extra_info	ncview.defines.h	/^		want_extra_info,$/;"	m
+warn_about_char_dims	file_netcdf.c	/^void warn_about_char_dims()$/;"	f
+warn_if_file_exits	util.c	/^warn_if_file_exits( char *fname )$/;"	f
+widedots	SciPlot.c	/^static char dots[]={2,1,1},widedots[]={2,1,4};$/;"	v	file:
+window_title	ncview.defines.h	/^		*window_title,$/;"	m
+x	SciPlot.h	/^	real x,y;$/;"	m
+x	SciPlotP.h	/^			real x,y,r;$/;"	m	struct:_SciPlotItem::<anonymous>::<anonymous>
+x	SciPlotP.h	/^			real x,y,w,h;$/;"	m	struct:_SciPlotItem::<anonymous>::<anonymous>
+x	SciPlotP.h	/^			real x,y;$/;"	m	struct:_SciPlotItem::<anonymous>::<anonymous>
+x	SciPlotP.h	/^			real x[4],y[4];$/;"	m	struct:_SciPlotItem::<anonymous>::<anonymous>
+x	SciPlotP.h	/^	SciPlotAxis	x,y;$/;"	m
+x1	SciPlotP.h	/^			real x1,y1,x2,y2;$/;"	m	struct:_SciPlotItem::<anonymous>::<anonymous>
+x2	SciPlotP.h	/^			real x1,y1,x2,y2;$/;"	m	struct:_SciPlotItem::<anonymous>::<anonymous>
+x_axis_id	ncview.defines.h	/^	int	x_axis_id, 	\/* which axes the 2-D data lies on.  'scan' *\/$/;"	m
+xlabel	SciPlotP.h	/^	char		*xlabel;$/;"	m
+y	SciPlot.h	/^	real x,y;$/;"	m
+y	SciPlotP.h	/^			real x,y,r;$/;"	m	struct:_SciPlotItem::<anonymous>::<anonymous>
+y	SciPlotP.h	/^			real x,y,w,h;$/;"	m	struct:_SciPlotItem::<anonymous>::<anonymous>
+y	SciPlotP.h	/^			real x,y;$/;"	m	struct:_SciPlotItem::<anonymous>::<anonymous>
+y	SciPlotP.h	/^			real x[4],y[4];$/;"	m	struct:_SciPlotItem::<anonymous>::<anonymous>
+y	SciPlotP.h	/^	SciPlotAxis	x,y;$/;"	m
+y1	SciPlotP.h	/^			real x1,y1,x2,y2;$/;"	m	struct:_SciPlotItem::<anonymous>::<anonymous>
+y2	SciPlotP.h	/^			real x1,y1,x2,y2;$/;"	m	struct:_SciPlotItem::<anonymous>::<anonymous>
+y_axis_id	ncview.defines.h	/^		y_axis_id,	\/* is the one accessed by the pushbuttons *\/$/;"	m
+ylabel	SciPlotP.h	/^	char		*ylabel;$/;"	m
